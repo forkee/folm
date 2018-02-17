@@ -95,7 +95,7 @@ Issue the following:
 Make note of the hash (which is your collaterla_output) and index.
 
 ### Enter your MasterNode details into your masternode.conf file
-[From the folm github repo](https://github.com/folm-crypto/folm/blob/master/doc/masternode_conf.md)
+[From the folm github repo](https://github.com/folm/folm/blob/master/doc/masternode_conf.md)
 
 The new masternode.conf format consists of a space seperated text file. Each line consisting of an alias, IP address followed by port, masternode private key, collateral output transaction id and collateral output index, donation address and donation percentage (the latter two are optional and should be in format "address:percentage").
 
@@ -114,7 +114,7 @@ mn02 127.0.0.2:51472 93WaAb3htPJEV8E9aQcN23Jt97bPex7YvWfgMDTUdWJvzmrMqey aa9f103
 
 ## What about the folm.conf file?
 
-If you are using a masternode.conf file you no longer need the folm.conf file. The exception is if you need custom settings (thanks oblox).
+If you are using a masternode.conf file you no longer need the folm.conf file. The exception is if you need custom settings (thanks oblox). 
 
 ## Update folm.conf on server
 

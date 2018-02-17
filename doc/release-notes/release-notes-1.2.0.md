@@ -1,12 +1,12 @@
 Folm Core version 1.2 is now available from:
 
-  <https://github.com/folm-crypto/folm/releases>
+  <https://github.com/folm/folm/releases>
 
 This is initial release, based upon PIVX-2.3.  All relevent PIVX release notes can be found in pivx-release-notes/
   
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/folm-crypto/folm/issues>
+  <https://github.com/folm/folm/issues>
 
 Compatibility
 ==============

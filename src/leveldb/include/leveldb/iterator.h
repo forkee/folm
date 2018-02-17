@@ -15,12 +15,13 @@
 #ifndef STORAGE_LEVELDB_INCLUDE_ITERATOR_H_
 #define STORAGE_LEVELDB_INCLUDE_ITERATOR_H_
 
+#include "leveldb/export.h"
 #include "leveldb/slice.h"
 #include "leveldb/status.h"
 
 namespace leveldb {
 
-class Iterator {
+class LEVELDB_EXPORT Iterator {
  public:
   Iterator();
   virtual ~Iterator();
@@ -37,7 +38,7 @@ class Iterator {
   // Valid() after this call iff the source is not empty.
   virtual void SeekToLast() = 0;
 
-  // Position at the first key in the source that at or past target
+  // Position at the first key in the source that is at or past target.
   // The iterator is Valid() after this call iff the source contains
   // an entry that comes at or past target.
   virtual void Seek(const Slice& target) = 0;
@@ -90,10 +91,10 @@ class Iterator {
 };
 
 // Return an empty iterator (yields nothing).
-extern Iterator* NewEmptyIterator();
+LEVELDB_EXPORT Iterator* NewEmptyIterator();
 
 // Return an empty iterator with the specified status.
-extern Iterator* NewErrorIterator(const Status& status);
+LEVELDB_EXPORT Iterator* NewErrorIterator(const Status& status);
 
 }  // namespace leveldb
 

@@ -3,7 +3,7 @@ Folm Core
 
 Setup
 ---------------------
-[Folm Core](https://folm.io/) is the original Folm client and it builds the backbone of the network. However, it downloads and stores the entire history of Folm transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Folm Core](https://www.folm.io/) is the original Folm client and it builds the backbone of the network. However, it downloads and stores the entire history of Folm transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -26,7 +26,7 @@ Drag Folm-Qt to your applications folder, and then run Folm-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Folm Wiki](https://github.com/folm-crypto/Folm/wiki)
+* See the documentation at the [Folm Wiki](https://github.com/folm/folm/wiki)
 for help and more information.
 * Ask for help on [BitcoinTalk](FIXME Add official BCT URL on ANN) or on the [Folm Discord](https://discord.gg/a7vhegP).
 
@@ -40,7 +40,7 @@ The following are developer notes on how to build Folm on your native platform. 
 
 Development
 ---------------------
-The Folm repo's [root README](https://github.com/folm-crypto/Folm/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Folm repo's [root README](https://github.com/folm/folm/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

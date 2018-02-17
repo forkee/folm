@@ -1,13 +1,13 @@
 Folm Core version 1.2 is now available from:
 
-  <https://github.com/folm-crypto/folm/releases>
+  <https://github.com/folm/folm/releases>
 
 This is a new minor version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/folm-crypto/folm/issues>
+  <https://github.com/folm/folm/issues>
 
 Compatibility
 ==============

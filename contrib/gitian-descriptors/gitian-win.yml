@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/folm-crypto/folm.git"
+- "url": "https://github.com/folm/folm.git"
   "dir": "folm"
 files: []
 script: |
