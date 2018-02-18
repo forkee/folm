@@ -1231,20 +1231,38 @@ NOTE:   unlike bitcoin we are using PREVIOUS block height here,
 */
 CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params& consensusParams, bool fSuperblockPartOnly)
 {
-    CAmount nSubsidy = 50 * COIN; 
+    CAmount nSubsidy = 45 * COIN;
 
-    if (nPrevHeight == 0)
-	      nSubsidy = 1625000 * COIN;
-    else if (nPrevHeight >= 1 && nPrevHeight <= 101)
-        nSubsidy = 1 * COIN;
-    else if (nPrevHeight < 500000)
-	      nSubsidy = static_cast<CAmount>(nSubsidy - (nSubsidy-1)*nPrevHeight/500000);
-    else
-        nSubsidy = 1 * COIN;
-
-    // yearly decline of production by 12.5% per year
-    for (int i = consensusParams.nSubsidyHalvingInterval; i <= nPrevHeight; i += consensusParams.nSubsidyHalvingInterval)
-        nSubsidy -= nSubsidy/8;
+    if (nHeight == 0) {
+        nSubsidy = 1136956.00 * COIN;
+    } else if (nHeight < 500 / 2) {
+        nSubsidy /= 500;
+        nSubsidy *= nHeight;
+    } else if (nHeight < 500) {
+        nSubsidy /= 500;
+        nSubsidy *= nHeight;
+    }
+    else if (nHeight <= 262800 && nHeight >= 500) {
+        nSubsidy = 45 * COIN;
+    } else if (nHeight <= 525600 && nHeight > 262800) {
+        nSubsidy = 40 * COIN;
+    } else if (nHeight <= 788400 && nHeight > 525600) {
+        nSubsidy = 25 * COIN;
+    } else if (nHeight <= 1051200 && nHeight > 788400) {
+        nSubsidy = 15 * COIN;
+    } else if (nHeight <= 1314000 && nHeight > 1051200) {
+        nSubsidy = 10 * COIN;
+    } else if (nHeight <= 1576800 && nHeight > 1314000) {
+        nSubsidy = 6.65 * COIN;
+    } else if (nHeight <= 1839600 && nHeight > 1576800) {
+        nSubsidy = 5.3 * COIN;
+    } else if (nHeight <= 2102400 && nHeight > 1839600) {
+        nSubsidy = 3.75 * COIN;
+    } else if (nHeight > 2102400) {
+        nSubsidy = 2.5 * COIN;
+    } else {
+        nSubsidy = 0 * COIN;
+    }
 
     // Hard fork to reduce the block reward by 10 extra percent (allowing budget/superblocks)
     CAmount nSuperblockPart = (nPrevHeight > consensusParams.nBudgetPaymentsStartBlock) ? nSubsidy/10 : 0;
@@ -1254,24 +1272,28 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
 
 CAmount GetMasternodePayment(int nHeight, CAmount blockValue)
 {
-  CAmount ret = blockValue*50/100;
-  int nRampPeriod = 62500;
-  if (nHeight < nRampPeriod)
-    ret = blockValue*50/100;
-  else if (nHeight < 2*nRampPeriod)
-    ret = blockValue*53.5/100;
-  else if (nHeight < 3*nRampPeriod)
-    ret = blockValue*57/100;
-  else if (nHeight < 4*nRampPeriod)
-    ret = blockValue*60.5/100;
-  else if (nHeight < 5*nRampPeriod)
-    ret = blockValue*64/100;
-  else if (nHeight < 6*nRampPeriod)
-    ret = blockValue*67.5/100;
-  else if (nHeight < 7*nRampPeriod)
-    ret = blockValue*71/100;
-  else // 500000+
-    ret = blockValue*75/100;
+  CAmount ret = 0;
+    if (nHeight < 500) {
+        ret = 0;
+    } else if (nHeight <= 262800 && nHeight >= 500) {
+        ret = blockValue / 3 * 1;
+    } else if (nHeight <= 525600 && nHeight > 262800) {
+        ret = blockValue / 2 * 1;
+    } else if (nHeight <= 788400 && nHeight > 525600) {
+        ret = blockValue / 5 * 3;
+    } else if (nHeight <= 1051200 && nHeight > 788400) {
+        ret = blockValue / 3 * 2;
+    } else if (nHeight <= 1314000 && nHeight > 1051200) {
+        ret = blockValue / 4 * 3;
+    } else if (nHeight <= 1576800 && nHeight > 1314000) {
+        ret = blockValue / 6.65 * 5;
+    } else if (nHeight <= 1839600 && nHeight > 1576800) {
+        ret = blockValue / 5.3 * 4;
+    } else if (nHeight <= 2102400 && nHeight > 1839600) {
+        ret = blockValue / 3.75 * 3;
+    } else (nHeight > 2102400) {
+        ret = blockValue / 5 * 4;
+    }
   return ret;
 }
 
