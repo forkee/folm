@@ -1,6 +1,6 @@
 ![Folm Logo](https://folm.io/images/logo_at_readme.jpg)
 
-"Valuable secure Privacy cryptocurrency"
+"Secure and Anonmymous"
 
 [![Build Status](https://travis-ci.org/folm/folm.svg?branch=master)](https://travis-ci.org/folm/folm)
 <a href="https://discord.gg/uDmpSHx"><img src="https://discordapp.com/api/guilds/398369914760593419/embed.png" alt="Discord server" /></a>

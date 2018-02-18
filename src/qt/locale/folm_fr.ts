@@ -1,9 +1,9 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.0">
+<TS language="fr" version="2.0">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Faites un clic droit pour modifier l'adresse ou l'étiquette</translation>
+        <translation>Faites un clic-droit pour modifier l'adresse ou l'étiquette</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copier l'adresse courante sélectionnée dans le presse-papier</translation>
+        <translation>Copier l'adresse actuellement sélectionnée dans le presse-papier</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Choisir l'adresse à laquelle envoyer de la monnaie</translation>
+        <translation>Choisir l'adresse à laquelle envoyer de l'argent</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Choisir l'adresse avec laquelle recevoir de la monnaie</translation>
+        <translation>Choisir l'adresse avec laquelle recevoir de l'argent</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Folm addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ce sont vos adresses Folm pour l'envoi de paiements. Vérifiez toujours le montant et l'adresse de réception avant l'envoi de monnaies.</translation>
+        <translation>Voici vos adresses Folm pour l'envoi de paiements. Vérifiez toujours le montant et l'adresse de réception avant d'envoyer de l'argent.</translation>
     </message>
     <message>
         <source>These are your Folm addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ce sont vos adresses Folm pour la réception de paiements. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
+        <translation>Voici vos adresses Folm pour la réception de paiements. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -110,7 +110,7 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(aucune étiquette)</translation>
+        <translation>(pas d'étiquette)</translation>
     </message>
 </context>
 <context>
@@ -136,8 +136,8 @@
         <translation>Utiliser pour désactiver le mode d'envoi trivial de paiement lorsque le compte système est compromis. N'assure pas une sécurité efficace.</translation>
     </message>
     <message>
-        <source>For anonymization and staking only</source>
-        <translation>Pour anonymisation uniquement</translation>
+        <source>Only for mixing via PrivateSend</source>
+        <translation>Seulement pour le mélange avec PrivateSend</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -168,16 +168,16 @@
         <translation>Changer le mot de passe</translation>
     </message>
     <message>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Saisir l’ancienne phrase de passe pour le portefeuille ainsi que la nouvelle.</translation>
+        <source>Enter the old passphrase and new passphrase to the wallet.</source>
+        <translation>Saisissez l'ancienne phrase de passe et la nouvelle phrase de passe du portefeuille.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
         <translation>Confirmer le chiffrement du portefeuille</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DNET&lt;/b&gt;!</source>
-        <translation>Attention : Si vous chiffrez votre portefeuille et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS DNET&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLM&lt;/b&gt;!</source>
+        <translation>Attention : si vous chiffrez votre portefeuille et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS FLMS&lt;/b&gt; !</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Portefeuille chiffré</translation>
     </message>
     <message>
-        <source>Folm will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your folms from being stolen by malware infecting your computer.</source>
-        <translation>Folm va à présent se fermer pour terminer le chiffrement. N'oubliez pas que le chiffrement de votre portefeuille n'est pas une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+        <source>Folm Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your folms from being stolen by malware infecting your computer.</source>
+        <translation>Folm Core va maintenant se fermer pour que le chiffrage soit terminé. N'oubliez pas : chiffrer votre portefeuille n'empêcherait pas vos folms d'être volés par un logiciel malveillant qui infecterait votre ordinateur.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -213,7 +213,7 @@
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>La phrase de passe saisie pour déchiffrer le portefeuille était incorrecte.</translation>
+        <translation>La phrase de passe saisie pour déchiffrer le portefeuille est incorrecte.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -229,7 +229,22 @@
     </message>
 </context>
 <context>
+    <name>BanTableModel</name>
+    <message>
+        <source>IP/Netmask</source>
+        <translation>IP/masque réseau</translation>
+    </message>
+    <message>
+        <source>Banned Until</source>
+        <translation>banni jusqu'à</translation>
+    </message>
+</context>
+<context>
     <name>BitcoinGUI</name>
+    <message>
+        <source>A fatal error occurred. Folm Core can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale est survenue. Folm ne peut plus continuer de façon sûre et va s'arrêter.</translation>
+    </message>
     <message>
         <source>Folm Core</source>
         <translation>Folm Core</translation>
@@ -256,7 +271,7 @@
     </message>
     <message>
         <source>Send coins to a Folm address</source>
-        <translation>Envoyer des pièces sur une adresse Folm</translation>
+        <translation>Envoyer de l'argent à une adresse Folm</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -264,7 +279,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and folm: URIs)</source>
-        <translation>Demande de paiements (Générer des QR code et des URIs folm)</translation>
+        <translation>Demande de paiements (génère des QR-codes et des URIs Folm)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -273,6 +288,14 @@
     <message>
         <source>Browse transaction history</source>
         <translation>Parcourir l'historique des transactions</translation>
+    </message>
+    <message>
+        <source>&amp;Masternodes</source>
+        <translation>&amp;Masternodes</translation>
+    </message>
+    <message>
+        <source>Browse masternodes</source>
+        <translation>Consulter les masternodes</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -284,7 +307,7 @@
     </message>
     <message>
         <source>&amp;About Folm Core</source>
-        <translation>À propos du noyau Folm</translation>
+        <translation>À propos de Folm Core</translation>
     </message>
     <message>
         <source>Show information about Folm Core</source>
@@ -303,8 +326,8 @@
         <translation>&amp;Options...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Folm</source>
-        <translation>Modifier les options de configuration pour Folm</translation>
+        <source>Modify configuration options for Folm Core</source>
+        <translation>Modifier les options de configuration de Folm Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -348,7 +371,7 @@
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>&amp;Vérouiller le portefeuille</translation>
+        <translation>&amp;Verrouiller le portefeuille</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
@@ -356,7 +379,7 @@
     </message>
     <message>
         <source>Sign messages with your Folm addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresses Folm pour prouver que vous êtes le propriétaire</translation>
+        <translation>Signer les messages avec votre adresses Folm pour prouver que vous en êtes l'auteur</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -372,7 +395,7 @@
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Voir les informaion de diagnostique</translation>
+        <translation>Voir les informations de diagnostic</translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
@@ -392,7 +415,7 @@
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>Et la liste des pairs</translation>
+        <translation>Liste des pairs</translation>
     </message>
     <message>
         <source>Show peers info</source>
@@ -400,19 +423,27 @@
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>Portefeuille et Réparation</translation>
+        <translation>Portefeuille et réparation</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
         <translation>Afficher les options de réparation du  portefeuille</translation>
     </message>
     <message>
-        <source>Open &amp;Configuration File</source>
-        <translation>Ouvrir Fichier de &amp;Configuration</translation>
+        <source>Open Wallet &amp;Configuration File</source>
+        <translation>Ouvrir le fichier de &amp;configuration du portefeuille</translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Ouvrir fichier de configuration</translation>
+        <translation>Ouvrir le fichier de configuration</translation>
+    </message>
+    <message>
+        <source>Open &amp;Masternode Configuration File</source>
+        <translation>Ouvrir le fichier de configuration des &amp;masternodes</translation>
+    </message>
+    <message>
+        <source>Open Masternode configuration file</source>
+        <translation>Ouvrir le fichier de configuration des masternodes</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
@@ -420,7 +451,7 @@
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Afficher automatiquement les sauvegardes de portefeuille créés </translation>
+        <translation>Afficher automatiquement les sauvegardes de portefeuille créées</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
@@ -440,31 +471,27 @@
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Ouvrir un &amp;URI...</translation>
+        <translation>Ouvrir une &amp;URI...</translation>
     </message>
     <message>
         <source>Open a folm: URI or payment request</source>
-        <translation>Ouvrir une URI ou demande de paiement folm</translation>
+        <translation>Ouvrir une URI ou demande de paiement Folm</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Options de ligne de &amp;commande</translation>
     </message>
     <message>
-        <source>Folm Core client</source>
-        <translation>Client Folm Core </translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform> Traités %n blocs de l'historique des transactions.</numerusform><numerusform> Traités %n blocs de l'historique des transactions.</numerusform></translation>
+        <source>Show the Folm Core help message to get a list with possible Folm Core command-line options</source>
+        <translation>Afficher l'aide Folm Core pour voir une liste des options possibles en ligne de commande</translation>
     </message>
     <message>
-        <source>Synchronizing additional data: %p%</source>
-        <translation>Synchronisation des données additionnelles: %p%</translation>
+        <source>&amp;PrivateSend information</source>
+        <translation>Information &amp;PrivateSend</translation>
     </message>
     <message>
-        <source>Show the Folm Core help message to get a list with possible Folm command-line options</source>
-        <translation>Afficher le message d'aide de Folm Core pour obtenir une liste des options de ligne de commande Bitcoin possibles.</translation>
+        <source>Show the PrivateSend basic information</source>
+        <translation>Afficher les informations de base PrivateSend</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -486,49 +513,45 @@
         <source>Tabs toolbar</source>
         <translation>Barre d'outils des onglets</translation>
     </message>
+    <message>
+        <source>Folm Core client</source>
+        <translation>Client Folm Core </translation>
+    </message>
     <message numerus="yes">
         <source>%n active connection(s) to Folm network</source>
         <translation><numerusform>%n connexion active au réseau Folm </numerusform><numerusform>%n connexions actives au réseau Folm </numerusform></translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>Activité réseau désactivée</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>Synchronisation des en-têtes (%1%)...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Synchronisation avec le réseau en cours...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
-        <translation>Importation des blocs depuis le disque...</translation>
+        <source>Indexing blocks on disk...</source>
+        <translation>Indexation des blocs sur le disque...</translation>
+    </message>
+    <message>
+        <source>Processing blocks on disk...</source>
+        <translation>Traitement des blocs sur le disque...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Réindexation des blocs sur le disque...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
-        <translation>Aucune source de blocs disponible...</translation>
-    </message>
-    <message>
-        <source>Up to date</source>
-        <translation>À jour</translation>
+        <source>Connecting to peers...</source>
+        <translation>Connexion aux pairs...</translation>
     </message>
     <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n heures</numerusform><numerusform>%n heures</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n jours</numerusform><numerusform>%n jours</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n semaines</numerusform><numerusform>%n semaines</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 et %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n année(s)</numerusform><numerusform>%n années</numerusform></translation>
+        <source>Processed %n block(s) of transaction history.</source>
+        <translation><numerusform> Traités %n bloc(s) de l'historique des transactions.</numerusform><numerusform> Traités %n bloc(s) de l'historique des transactions.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -540,11 +563,19 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Le dernier bloc reçu avait été généré il y a %1.</translation>
+        <translation>Le dernier bloc reçu a été généré il y a %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Les transactions après ceci ne sont pas encore visibles.</translation>
+        <translation>Les transactions ultérieures ne sont pas encore visibles.</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>À jour</translation>
+    </message>
+    <message>
+        <source>Synchronizing additional data: %p%</source>
+        <translation>Synchronisation des données additionnelles : %p%</translation>
     </message>
     <message>
         <source>Error</source>
@@ -559,6 +590,36 @@
         <translation>Information</translation>
     </message>
     <message>
+        <source>Date: %1
+</source>
+        <translation>Date : %1
+</translation>
+    </message>
+    <message>
+        <source>Amount: %1
+</source>
+        <translation>Quantité : %1
+</translation>
+    </message>
+    <message>
+        <source>Type: %1
+</source>
+        <translation>Type : %1
+</translation>
+    </message>
+    <message>
+        <source>Label: %1
+</source>
+        <translation>Étiquette : %1
+</translation>
+    </message>
+    <message>
+        <source>Address: %1
+</source>
+        <translation>Adresse : %1
+</translation>
+    </message>
+    <message>
         <source>Sent transaction</source>
         <translation>Transaction envoyée</translation>
     </message>
@@ -567,24 +628,20 @@
         <translation>Transaction entrante</translation>
     </message>
     <message>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation>Date : %1
-Montant : %2
-Type : %3
-Adresse : %4
-</translation>
+        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
+        <translation>La génération de clef HD est &lt;b&gt;activée&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
+        <translation>La génération de clef HD est &lt;b&gt;désactivée&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Le portefeuille est &lt;b&gt;chiffré&lt;/b&gt; et est actuellement &lt;b&gt;déverrouillé&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</source>
-        <translation>Le portefeuille est &lt;b&gt;chiffré&lt;/b&gt; et est actuellement &lt;b&gt;déverrouillé&lt;/b&gt; seulement pour l'anonymisation</translation>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</source>
+        <translation>Le portefeuille est &lt;b&gt;chiffré&lt;/b&gt; et est actuellement &lt;b&gt;déverrouillé&lt;/b&gt; uniquement pour le mélange</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
@@ -594,8 +651,8 @@ Adresse : %4
 <context>
     <name>ClientModel</name>
     <message>
-        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
-        <translation>Total: %1 (Compatible OBF: %2 / Actifs: %3)</translation>
+        <source>Total: %1 (PS compatible: %2 / Enabled: %3)</source>
+        <translation>Total : %1 (PS compatibles : %2 / activés : %3)</translation>
     </message>
     <message>
         <source>Network Alert</source>
@@ -617,24 +674,20 @@ Adresse : %4
         <translation>Montant :</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Priorité :</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>Frais :</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Sélection de la Monnaie</translation>
+        <translation>Sélection des pièces</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Poussière:</translation>
+        <translation>Poussière :</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Après les frais :</translation>
+        <translation>Avec les frais déduits :</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -643,6 +696,10 @@ Adresse : %4
     <message>
         <source>(un)select all</source>
         <translation>Tout (dé)sélectionner</translation>
+    </message>
+    <message>
+        <source>toggle lock state</source>
+        <translation>inverser le verrouillage</translation>
     </message>
     <message>
         <source>Tree mode</source>
@@ -669,8 +726,8 @@ Adresse : %4
         <translation>Reçu avec adresse</translation>
     </message>
     <message>
-        <source>OBF Rounds</source>
-        <translation>Cycles OBF</translation>
+        <source>PS Rounds</source>
+        <translation>cycles PrivateSend</translation>
     </message>
     <message>
         <source>Date</source>
@@ -683,10 +740,6 @@ Adresse : %4
     <message>
         <source>Confirmed</source>
         <translation>Confirmée</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>Priorité</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -729,72 +782,24 @@ Adresse : %4
         <translation>Copier les octets</translation>
     </message>
     <message>
-        <source>Copy priority</source>
-        <translation>Copier la priorité</translation>
-    </message>
-    <message>
         <source>Copy dust</source>
-        <translation>Copier poussière</translation>
+        <translation>Copier la poussière</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Copier la monnaie</translation>
+        <translation>Copier la monnaie rendue</translation>
     </message>
     <message>
-        <source>Non-anonymized input selected. &lt;b&gt;Obfuscate will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Obfuscate, please deselect all non-nonymized inputs first and then check Obfuscate checkbox again.</source>
-        <translation>Entrée non-anonymisées sélectionnée. &lt;b&gt; Obfuscate sera désactivé. &lt;/ b&gt; &lt;br&gt; Si vous voulez continuer à utiliser Obfuscate, veuillez désélectionner toutes les entrées non-anonymisées d'abord, puis vérifier à nouveau la case Obfuscate.</translation>
+        <source>Please switch to "List mode" to use this function.</source>
+        <translation>Veuillez passer en “mode liste” pour utiliser cette fonction.</translation>
     </message>
     <message>
-        <source>highest</source>
-        <translation>la plus élevée</translation>
-    </message>
-    <message>
-        <source>higher</source>
-        <translation>plus élevée</translation>
-    </message>
-    <message>
-        <source>high</source>
-        <translation>élevée</translation>
-    </message>
-    <message>
-        <source>medium-high</source>
-        <translation>moyennement-élevée</translation>
-    </message>
-    <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Peut varier de +/- %1 duff(s) par entrée.</translation>
-    </message>
-    <message>
-        <source>n/a</source>
-        <translation>n/a</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>moyenne</translation>
-    </message>
-    <message>
-        <source>low-medium</source>
-        <translation>moyennement-basse</translation>
-    </message>
-    <message>
-        <source>low</source>
-        <translation>basse</translation>
-    </message>
-    <message>
-        <source>lower</source>
-        <translation>plus basse</translation>
-    </message>
-    <message>
-        <source>lowest</source>
-        <translation>la plus basse</translation>
+        <source>Non-anonymized input selected. &lt;b&gt;PrivateSend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use PrivateSend, please deselect all non-nonymized inputs first and then check PrivateSend checkbox again.</source>
+        <translation>Éléments non-anonymisés sélectionnés. &lt;b&gt;PrivateSend sera désactivé.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Si vous voulez quand même utiliser PrivateSend, veuillez d'abord désélectionner tous les éléments non-anonymisés, puis recochez la case PrivateSend.</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 verrouillé)</translation>
-    </message>
-    <message>
-        <source>none</source>
-        <translation>aucun</translation>
+        <translation>(%1 verrouillés)</translation>
     </message>
     <message>
         <source>yes</source>
@@ -805,28 +810,12 @@ Adresse : %4
         <translation>non</translation>
     </message>
     <message>
-        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>Cette étiquette devient rouge si la taille de la transaction est plus grande que 1 000 octets.</translation>
+        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
+        <translation>Cette étiquette devient rouge si l'un des destinataires reçoit un montant inférieur au niveau de "poussière".</translation>
     </message>
     <message>
-        <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Cela signifie qu'une taxe d'au moins %1 par ko est nécessaire </translation>
-    </message>
-    <message>
-        <source>Can vary +/- 1 byte per input.</source>
-        <translation>Peut varier +/- 1 octet par entrée.</translation>
-    </message>
-    <message>
-        <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Les transactions à priorité plus haute sont plus à même d'être incluses dans un bloc.</translation>
-    </message>
-    <message>
-        <source>This label turns red, if the priority is smaller than "medium".</source>
-        <translation>Cette étiquette devient rouge si la priorité est plus basse que « moyenne »</translation>
-    </message>
-    <message>
-        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>Cette étiquette devient rouge si un destinataire reçoit un montant inférieur à %1.</translation>
+        <source>Can vary +/- %1 duff(s) per input.</source>
+        <translation>Peut varier de ± %1 duff(s) par entrée.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -840,12 +829,16 @@ Adresse : %4
         <source>(change)</source>
         <translation>(monnaie)</translation>
     </message>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
 </context>
 <context>
-    <name>ObfuscateConfig</name>
+    <name>DarksendConfig</name>
     <message>
-        <source>Configure Obfuscate</source>
-        <translation>Configurer Obfuscate</translation>
+        <source>Configure PrivateSend</source>
+        <translation>Configurer PrivateSend</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
@@ -864,48 +857,48 @@ Adresse : %4
         <translation>Veuillez choisir un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 DNET</source>
-        <translation>Utiliser 2 masternodes pour mélanger jusqu'à 1000 DNET</translation>
+        <source>Use 2 separate masternodes to mix funds up to 25000 FLM</source>
+        <translation>Utiliser 2 masternodes distincts pour mélanger jusqu'à 25000 FLM</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 DNET</source>
-        <translation>Utiliser 8 masternodes pour mélanger jusqu'à 1000 DNET</translation>
+        <source>Use 8 separate masternodes to mix funds up to 25000 FLM</source>
+        <translation>Utiliser 8 masternodes distincts pour mélanger jusqu'à 25000 FLM</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Utiliser 16 masternodes</translation>
+        <translation>Utiliser 16 masternodes distincts</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DNET to anonymize 1000 DNET</source>
-        <translation>Cette option est la plus rapide et coûtera environ 0,025 DNET pour anonymiser 1000 DNET</translation>
+        <source>This option is the quickest and will cost about ~0.025 FLM to anonymize 25000 FLM</source>
+        <translation>Cette option est la plus rapide et coûtera environ 0,025 FLM pour anonymiser 25000 FLM</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DNET to anonymize 1000 DNET</source>
-        <translation>Cette option est un peu moins rapide et coûtera environ 0,05 DNET pour anonymiser 1000 DNET</translation>
+        <source>This option is moderately fast and will cost about 0.05 FLM to anonymize 25000 FLM</source>
+        <translation>Cette option est un peu moins rapide et coûtera environ 0,05 FLM pour anonymiser 25000 FLM</translation>
     </message>
     <message>
-        <source>0.1 DNET per 1000 DNET you anonymize.</source>
-        <translation>0,1 DNET par 1000 DNET anonymisés.</translation>
+        <source>0.1 FLM per 25000 FLM you anonymize.</source>
+        <translation>0,1 FLM par 25000 FLM anonymisés.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Cette option est le plus lente et la plus sécurisée. Utiliser l'anonymisation maximale coûtera</translation>
     </message>
     <message>
-        <source>Obfuscate Configuration</source>
-        <translation>Configuration de Obfuscate</translation>
+        <source>PrivateSend Configuration</source>
+        <translation>Configuration PrivateSend</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Folm's configuration screen.</source>
-        <translation>Obfuscate est réglé avec succès sur normal (%1 and 2 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Folm.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Folm's configuration screen.</source>
+        <translation>PrivateSend a bien été réglé sur “normale” (%1 et 2 cycles). Vous pouvez modifier cela à tout moment dans la fenêtre de configuration de Folm.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Folm's configuration screen.</source>
-        <translation>Obfuscate est réglé avec succès sur haut (%1 and 8 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Folm.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Folm's configuration screen.</source>
+        <translation>PrivateSend a bien été réglé sur “élevée” (%1 et 8 cycles). Vous pouvez modifier cela à tout moment dans la fenêtre de configuration de Folm.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Folm's configuration screen.</source>
-        <translation>Obfuscate est réglé avec succès sur maximum (%1 and 16 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Folm.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Folm's configuration screen.</source>
+        <translation>PrivateSend a bien été réglé sur “maximale” (%1 et 16 cycles). Vous pouvez modifier cela à tout moment dans la fenêtre de configuration de Folm.</translation>
     </message>
 </context>
 <context>
@@ -948,7 +941,7 @@ Adresse : %4
     </message>
     <message>
         <source>The entered address "%1" is not a valid Folm address.</source>
-        <translation>L'adresse entrée "%1" est pas une adresse Folm valide</translation>
+        <translation>L'adresse d'entrée « %1 » n'est pas une adresse Folm valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1002,7 +995,7 @@ Adresse : %4
     </message>
     <message>
         <source>About Folm Core</source>
-        <translation>A propos de Folm Core</translation>
+        <translation>À propos de Folm Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1017,28 +1010,40 @@ Adresse : %4
         <translation>options de ligne de commande</translation>
     </message>
     <message>
-        <source>UI options</source>
-        <translation>Options de l'interface utilisateur</translation>
+        <source>UI Options:</source>
+        <translation>Options d'interface :</translation>
     </message>
     <message>
-        <source>Choose data directory on startup (default: 0)</source>
-        <translation>Choisir un répertoire de données au démarrage (par défaut : 0)</translation>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>Choisir le répertoire de données au démarrage (par défaut : %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Définir la langue, par exemple « fr_CA » (par défaut : la langue du système)</translation>
+        <translation>Définir la langue, par exemple « fr_FR » (par défaut : la langue du système)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Démarrer minimisé</translation>
+        <translation>Démarrer en présentation minimisée</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Définir les certificats SSL racine pour les requêtes de paiement (par défaut : -système-)</translation>
+        <translation>Définir les certificats SSL racine pour les requêtes de paiement (par défaut : -system-)</translation>
     </message>
     <message>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>Afficher l'écran d'accueil au démarrage (par défaut : 1)</translation>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Afficher l'écran de démarrage (défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Reset all settings changed in the GUI</source>
+        <translation>Réinitialiser tous les réglages modifiés de l'interface utilisateur</translation>
+    </message>
+    <message>
+        <source>PrivateSend information</source>
+        <translation>Information PrivateSend</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Folm in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 FLM, 0.1 FLM, 1 FLM and 10 FLM -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://folmpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://folmpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;Ce qu'il faut savoir sur PrivateSend&lt;/h3&gt; PrivateSend vous offre une véritable confidentialité financière en obscurcissant l'origine de vos fonds. Tous les folms de votre portefeuille sont répartis en différentes "entrées", qu'on peut se représenter comme des pièces distinctes.&lt;br&gt; PrivateSend est un procédé innovant qui mélange vos entrées avec les entrées de deux autres personnes, sans que vos fonds ne quittent jamais votre portefeuille. Vous gardez le contrôle de votre argent à tout moment.&lt;hr&gt; &lt;b&gt;La procédure PrivateSend fonctionne comme ceci :&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend commence par diviser vos entrées de transaction en coupures standard. Ces coupures sont de 0.01 FLM, 0.1 FLM, 1 FLM et 10 FLM -- un peu comme pour les billets de banque que vous utilisez tous les jours.&lt;/li&gt; &lt;li&gt;Votre portefeuille envoie alors des requêtes à des serveurs spécifiques sur le réseau, appelés "masternodes". Ces masternodes sont informés que vous souhaiteriez mélanger certaines coupures. Aucune information permettant de vous identifier n'est envoyée aux masternodes, qui ne savent donc jamais "qui" vous êtes.&lt;/li&gt; &lt;li&gt;Quand deux autres personnes envoient des requêtes similaires, indiquant qu'elles veulent mélanger les mêmes coupures, alors commence une session de mélange. Le masternode mélange les entrées et demande aux portefeuilles des trois utilisateurs de payer l'entrée, désormais transformée, à eux-mêmes. Votre portefeuille paie cette coupure directement à lui-même, mais à une adresse différente (appelée adresse de monnaie rendue).&lt;/li&gt; &lt;li&gt;Afin d'obscurcir complètement vos fonds, votre portefeuille doit répéter cette procédure un certain nombre de fois avec chaque coupure. Une procédure terminée s'appelle un "cycle". Chaque cycle PrivateSend rend exponentiellement plus difficile de savoir d'où viennent vos fonds.&lt;/li&gt; &lt;li&gt;Cette procédure de mélange intervient en arrière-plan, sans aucune intervention de votre part. Quand vous souhaiterez faire une transaction, vos fonds seront déjà anonymisés. Aucune autre attente ne sera nécessaire.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT :&lt;/b&gt; Votre portefeuille ne contient que 1000 de ces "adresses de monnaie rendue". À chaque opération de mélange, jusqu'à 9 de ces adresses sont utilisées. Cela signifie que ces 1000 adresses couvrent environ 100 opérations de mélange. Quand 900 d'entre elles sont utilisées, votre portefeuille doit créer de nouvelles adresses. Cependant il ne peut le faire que si vous avez activé les sauvegardes automatiques.&lt;br&gt; En conséquence, les utilisateurs qui ont désactivé les sauvegardes ont aussi PrivateSend désactivé. &lt;hr&gt;Pour en savoir plus, voir &lt;a href="https://folmpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://folmpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
     </message>
 </context>
 <context>
@@ -1049,7 +1054,7 @@ Adresse : %4
     </message>
     <message>
         <source>Welcome to Folm Core.</source>
-        <translation>Bienvenue à Folm Core</translation>
+        <translation>Bienvenue dans Folm Core</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Folm Core will store its data.</source>
@@ -1057,7 +1062,7 @@ Adresse : %4
     </message>
     <message>
         <source>Folm Core will download and store a copy of the Folm block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Folm Core téléchargera et sauvegardera une copie de la chaîne de blocs Folm. Au moins %1Go de données seront sauvegardées dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
+        <translation>Folm Core téléchargera et sauvegardera une copie de la chaîne de blocs Folm. Au moins %1 Go de données seront sauvegardés dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1073,7 +1078,7 @@ Adresse : %4
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Erreur: Le répertoire de données spécifié « %1 » ne peut pas être créé.</translation>
+        <translation>Erreur : le répertoire de données spécifié « %1 » ne peut pas être créé.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1085,7 +1090,181 @@ Adresse : %4
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>( de %1 Go nécessaire)</translation>
+        <translation>(sur %1 Go nécessaire)</translation>
+    </message>
+</context>
+<context>
+    <name>MasternodeList</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulaire</translation>
+    </message>
+    <message>
+        <source>My Masternodes</source>
+        <translation>Mes masternodes</translation>
+    </message>
+    <message>
+        <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your masternode should be running but you still do not see "ENABLED" in "Status" field.</source>
+        <translation>À noter : l'état de vos masternodes dans ce portefeuille local peut être légèrement erroné.&lt;br /&gt;Veuillez toujours attendre que votre portefeuille soit synchronisé au réseau, et vérifiez votre masternode depuis un autre nœud&lt;br /&gt;s'il est censé tourner mais que vous ne voyez toujours pas "ENABLED" dans le champ "État".</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Protocol</source>
+        <translation>Protocole</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>État</translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation>Actif</translation>
+    </message>
+    <message>
+        <source>Last Seen</source>
+        <translation>Dernière vérification</translation>
+    </message>
+    <message>
+        <source>Payee</source>
+        <translation>Bénéficiaire</translation>
+    </message>
+    <message>
+        <source>S&amp;tart alias</source>
+        <translation>“S&amp;tart-alias”</translation>
+    </message>
+    <message>
+        <source>Start &amp;all</source>
+        <translation>“Start-&amp;all”</translation>
+    </message>
+    <message>
+        <source>Start &amp;MISSING</source>
+        <translation>“Start-&amp;missing”</translation>
+    </message>
+    <message>
+        <source>&amp;Update status</source>
+        <translation>Rafraîchir l'état</translation>
+    </message>
+    <message>
+        <source>Status will be updated automatically in (sec):</source>
+        <translation>L'état sera mis à jour automatiquement dans (sec.) :</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <source>All Masternodes</source>
+        <translation>Tous les masternodes</translation>
+    </message>
+    <message>
+        <source>Filter List:</source>
+        <translation>Filtrer la liste :</translation>
+    </message>
+    <message>
+        <source>Filter masternode list</source>
+        <translation>Filtrer la liste des masternodes</translation>
+    </message>
+    <message>
+        <source>Node Count:</source>
+        <translation>Nombre de nœuds :</translation>
+    </message>
+    <message>
+        <source>Start alias</source>
+        <translation>Start-alias</translation>
+    </message>
+    <message>
+        <source>Confirm masternode start</source>
+        <translation>Confirmer le démarrage du masternode</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to start masternode %1?</source>
+        <translation>Êtes-vous certain de vouloir démarrer le masternode %1 ?</translation>
+    </message>
+    <message>
+        <source>Confirm all masternodes start</source>
+        <translation>Confirmer le démarrage de tous les masternodes</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to start ALL masternodes?</source>
+        <translation>Êtes-vous certain de vouloir démarrer TOUS les masternodes ?</translation>
+    </message>
+    <message>
+        <source>Command is not available right now</source>
+        <translation>Cette commande n'est pas immédiatement disponible.</translation>
+    </message>
+    <message>
+        <source>You can't use this command until masternode list is synced</source>
+        <translation>Impossible d'utiliser cette commande avant que la liste des masternodes soit synchronisée.</translation>
+    </message>
+    <message>
+        <source>Confirm missing masternodes start</source>
+        <translation>Confirmer le démarrage des masternodes manquants</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to start MISSING masternodes?</source>
+        <translation>Êtes-vous certain de vouloir démarrer les masternodes MANQUANTS ?</translation>
+    </message>
+</context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulaire</translation>
+    </message>
+    <message>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Folm network, as detailed below.</source>
+        <translation>Les transactions récentes ne sont peut-être pas encore visibles ; le solde de votre portefeuille peut donc être incorrect. Ces informations seront correctes dès que votre portefeuille aura terminé sa synchronisation avec le réseau Folm, comme précisé ci-dessous.</translation>
+    </message>
+    <message>
+        <source>Attempting to spend Folm that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Les tentatives de dépenser des folms affectés par des transactions non encore affichées seront rejetées par le réseau.</translation>
+    </message>
+    <message>
+        <source>Number of blocks left</source>
+        <translation>Nombre de blocs restants</translation>
+    </message>
+    <message>
+        <source>Unknown...</source>
+        <translation>Inconnu...</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Horodatage du dernier bloc</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Avancement</translation>
+    </message>
+    <message>
+        <source>~</source>
+        <translation>~</translation>
+    </message>
+    <message>
+        <source>Progress increase per hour</source>
+        <translation>Avancement par heure</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>en cours de calcul...</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>Temps restant estimé avant synchronisation</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Masquer</translation>
+    </message>
+    <message>
+        <source>Unknown. Syncing Headers (%1)...</source>
+        <translation>Inconnu. Synchronisation des en-têtes (%1)...</translation>
     </message>
 </context>
 <context>
@@ -1122,14 +1301,6 @@ Adresse : %4
         <translation>Réglages &amp;principaux</translation>
     </message>
     <message>
-        <source>Automatically start Folm after logging in to the system.</source>
-        <translation>Démarrer Folm automatiquement au démarrage du système.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Folm on system login</source>
-        <translation>&amp;Démarrer Folm au démarrage du système</translation>
-    </message>
-    <message>
         <source>Size of &amp;database cache</source>
         <translation>Taille du cache de la base de &amp;données</translation>
     </message>
@@ -1139,19 +1310,11 @@ Adresse : %4
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Nombre d'exétrons de &amp;vérification de script</translation>
+        <translation>Nombre de files de &amp;vérification de script</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt; 0 = laisser ce nombre de cœurs inutilisés)</translation>
-    </message>
-    <message>
-        <source>Obfuscate rounds to use</source>
-        <translation>Nombre de cycles Obfuscate à effectuer</translation>
-    </message>
-    <message>
-        <source>This amount acts as a threshold to turn off Obfuscate once it's reached.</source>
-        <translation>Ce montant est le seuil pour désactiver Obfuscate dès qu'il est atteint.</translation>
+        <translation>(0 = auto, &lt; 0 = ne pas utiliser ce nombre de cœurs)</translation>
     </message>
     <message>
         <source>Amount of Folm to keep anonymized</source>
@@ -1162,8 +1325,60 @@ Adresse : %4
         <translation>&amp;Portefeuille</translation>
     </message>
     <message>
+        <source>Automatically start Folm Core after logging in to the system.</source>
+        <translation>Lancer automatiquement Folm Core après connexion à cet ordinateur.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Folm Core on system login</source>
+        <translation>&amp;Lancer Folm Core au démarrage</translation>
+    </message>
+    <message>
+        <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
+        <translation>Ajouter un onglet montrant tous vos masternodes dans le premier sous-onglet&lt;br/&gt;et tous les masternodes du réseau dans le second.</translation>
+    </message>
+    <message>
+        <source>Show Masternodes Tab</source>
+        <translation>Afficher l'onglet Masternodes</translation>
+    </message>
+    <message>
+        <source>Show additional information and buttons for PrivateSend on overview screen.</source>
+        <translation>Afficher des infos et des boutons supplémentaires pour PrivateSend sur l'écran principal.</translation>
+    </message>
+    <message>
+        <source>Enable advanced PrivateSend interface</source>
+        <translation>Activer l'interface avancée PrivateSend</translation>
+    </message>
+    <message>
+        <source>Show warning dialog when PrivateSend detects that wallet has very low number of keys left.</source>
+        <translation>Afficher un message d'avertissement quand PrivateSend détecte qu'il reste très peu de clefs dans votre portefeuille.</translation>
+    </message>
+    <message>
+        <source>Warn if PrivateSend is running out of keys</source>
+        <translation>Avertir si PrivateSend manque bientôt de clefs</translation>
+    </message>
+    <message>
+        <source>Whether to use experimental PrivateSend mode with multiple mixing sessions per block.&lt;br/&gt;Note: You must use this feature carefully.&lt;br/&gt;Make sure you always have recent wallet (auto)backup in a safe place!</source>
+        <translation>Choisir d'utiliser PrivateSend dans un mode expérimental avec sessions multiples de mélange par bloc.&lt;br/&gt;Note : fonction à utiliser avec prudence.&lt;br/&gt;Assurez-vous toujours d'avoir une sauvegarde (automatique) en lieu sûr !</translation>
+    </message>
+    <message>
+        <source>Enable PrivateSend &amp;multi-session</source>
+        <translation>Activer le mode &amp;multi-session pour PrivateSend</translation>
+    </message>
+    <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Si vous désactivez la dépense de la monnaie non confirmée, la monnaie d'une transaction&lt;br/&gt;ne peut pas être utilisée tant que cette transaction n'a pas reçu au moins une confirmation.&lt;br/&gt;Ceci affecte aussi comment votre solde est calculé.</translation>
+        <translation>Si vous désactivez la dépense d'argent non confirmé, le montant d'une transaction&lt;br/&gt;ne peut pas être utilisé tant que cette transaction n'a pas reçu au moins une confirmation.&lt;br/&gt;Ceci a aussi un impact sur le calcul de votre solde.</translation>
+    </message>
+    <message>
+        <source>PrivateSend rounds to use</source>
+        <translation>Cycles PrivateSend à utiliser</translation>
+    </message>
+    <message>
+        <source>This amount acts as a threshold to turn off PrivateSend once it's reached.</source>
+        <translation>Ce montant agit comme seuil de désactivation de PrivateSend, une fois atteint.</translation>
+    </message>
+    <message>
+        <source>Automatically open the Folm Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port du client Folm Core sur le routeur. Cela ne fonctionne que si votre routeur supporte UPnP et est activé.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1179,7 +1394,19 @@ Adresse : %4
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Connectez par SOCKS5 (proxy par défaut):</translation>
+        <translation>&amp;Connexion par SOCKS5 (proxy par défaut) :</translation>
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
+        <translation>Minimiser l'application (au lieu de la quitter) quand la fenêtre est fermée. Si cette option est activée, l'application se fermera uniquement en passant par le menu Quitter.</translation>
+    </message>
+    <message>
+        <source>The user interface language can be set here. This setting will take effect after restarting Folm Core.</source>
+        <translation>La langue de l'interface peut être choisie ici. Ce réglage prendra effet après le redémarrage de Folm Core.</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>URLs de tierce partie (par ex. : un explorateur de blocs) affichées dans l'onglet Transactions comme menu contextuel.&lt;br/&gt;%s dans l'URL est remplacé par le hash de transaction. Les URLs multiples sont séparées par une barre verticale |.</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -1195,19 +1422,15 @@ Adresse : %4
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Activer les fonctions de &amp;contrôle des pièces </translation>
+        <translation>Activer les fonctions de &amp;contrôle des pièces</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Dépenser la monnaie non confirmée</translation>
+        <translation>&amp;Dépenser l'argent non confirmé</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Réseau</translation>
-    </message>
-    <message>
-        <source>Automatically open the Folm client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port client Folm sur le routeur. Cela ne fonctionne que sur les routeurs supportant et ayant activé UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1230,8 +1453,44 @@ Adresse : %4
         <translation>Port du serveur mandataire (par ex. 9050)</translation>
     </message>
     <message>
+        <source>Used for reaching peers via:</source>
+        <translation>Utilisé pour atteindre les pairs via :</translation>
+    </message>
+    <message>
+        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation>Indique si le proxy SOCKS5 par défaut est utilisé pour atteindre les pairs à travers ce type de réseau.</translation>
+    </message>
+    <message>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
+    </message>
+    <message>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
+    </message>
+    <message>
+        <source>Tor</source>
+        <translation>Tor</translation>
+    </message>
+    <message>
+        <source>Connect to the Folm network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Se connecter au réseau Folm via un proxy SOCKS5 séparé pour les services cachés Tor.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
+        <translation>Utiliser un proxy SOCKS5 distinct pour atteindre les pairs par des services cachés Tor :</translation>
+    </message>
+    <message>
         <source>&amp;Window</source>
         <translation>&amp;Fenêtre</translation>
+    </message>
+    <message>
+        <source>&amp;Hide the icon from the system tray.</source>
+        <translation>Masquer l'icône de la barre d'état système.</translation>
+    </message>
+    <message>
+        <source>Hide tray icon</source>
+        <translation>Masque l'icône de la barre d'état</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
@@ -1242,54 +1501,42 @@ Adresse : %4
         <translation>&amp;Minimiser dans la barre système au lieu de la barre des tâches</translation>
     </message>
     <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimiser au lieu de quitter l'application lorsque la fenêtre est fermée. Si cette option est activée, l'application ne pourra être fermée qu'en sélectionnant Quitter dans le menu.</translation>
-    </message>
-    <message>
         <source>M&amp;inimize on close</source>
         <translation>M&amp;inimiser lors de la fermeture</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Affichage</translation>
+        <translation>&amp;Afficher</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
         <translation>&amp;Langue de l'interface utilisateur :</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Folm.</source>
-        <translation>La langue de l'interface utilisateur peut être modifiée ici. Ce paramètre sera pris en compte au redémarrage de Folm.</translation>
-    </message>
-    <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/folm-crypto/folm-wallet-translations/</source>
+https://www.transifex.com/projects/p/folm/</source>
         <translation>Langage manquant ou traduction incomplète ? Participez aux traductions ici :
-https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
+https://www.transifex.com/projects/p/folm/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>Thème d'Interface de l'utilisateur :</translation>
+        <translation>Thème d'interface de l'utilisateur :</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unité d'affichage des montants :</translation>
+        <translation>&amp;Unité des montants :</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Choisissez la sous-unité par défaut pour l'affichage dans l'interface et lors de l'envoi de pièces.</translation>
+        <translation>Choisissez la sous-unité par défaut pour l'affichage dans l'interface et lors de l'envoi d'argent.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
         <translation>Nombre de décimales</translation>
     </message>
     <message>
-        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL de tiers (par ex. un explorateur de blocs) apparaissant dans l'onglet des transactions comme éléments du menu contextuel. %s dans l'URL est remplacé par le hachage de la transaction. Les URL multiples sont séparées par une barre verticale |.</translation>
-    </message>
-    <message>
         <source>Third party transaction URLs</source>
-        <translation>URL de transaction d'un tiers</translation>
+        <translation>URLs de transaction tierces</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
@@ -1328,8 +1575,8 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Le redémarrage du client est nécessaire pour activer les changements.</translation>
     </message>
     <message>
-        <source>Client will be shutdown, do you want to proceed?</source>
-        <translation>Le client sera arrêté, voulez-vous continuer?</translation>
+        <source>Client will be shut down. Do you want to proceed?</source>
+        <translation>Le logiciel va être fermé. Voulez-vous continuer ?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
@@ -1348,7 +1595,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Folm network after a connection is established, but this process has not completed yet.</source>
-        <translation>L'information affichée peut être obsolète. Votre portefeuille se synchronise automatiquement avec le réseau Folm lorsque la connection est établie, mais le process n'est pas encore terminé.</translation>
+        <translation>L'information affichée peut être obsolète. Votre portefeuille se synchronise automatiquement avec le réseau Folm lorsque la connection est établie, mais ce processus n'est pas encore terminé.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1364,14 +1611,14 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Total des transactions qui doivent encore être confirmées et qu'il n'est pas encore possible de dépenser</translation>
+        <translation>Total des transactions qui restent à confirmer et qu'il n'est pas encore possible de dépenser</translation>
     </message>
     <message>
         <source>Immature:</source>
         <translation>Immature :</translation>
     </message>
     <message>
-        <source>Staked or masternode rewards that has not yet matured</source>
+        <source>Mined balance that has not yet matured</source>
         <translation>Le solde généré n'est pas encore mûr</translation>
     </message>
     <message>
@@ -1380,11 +1627,11 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Transactions non confirmés d'adresses en lecture seule</translation>
+        <translation>Transactions non confirmées d'adresses en lecture seule</translation>
     </message>
     <message>
-        <source>Staked or masternode rewards in watch-only addresses that has not yet matured</source>
-        <translation>Solde miné pour les adresses en lecture seule qui n'ont pas encore mûri</translation>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Solde miné pour les adresses en lecture seule pas encore mûres</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1400,7 +1647,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Lecture seule:</translation>
+        <translation>Lecture seule :</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -1408,11 +1655,15 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Disponible:</translation>
+        <translation>Disponible :</translation>
+    </message>
+    <message>
+        <source>PrivateSend</source>
+        <translation>PrivateSend</translation>
     </message>
     <message>
         <source>Status:</source>
-        <translation>Status :</translation>
+        <translation>État :</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1420,31 +1671,39 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Completion:</source>
-        <translation>Complétude :</translation>
+        <translation>Avancement :</translation>
     </message>
     <message>
-        <source>Obfuscate Balance:</source>
-        <translation>Balance Obfuscate :</translation>
+        <source>Try to manually submit a PrivateSend request.</source>
+        <translation>Essayer de soumettre manuellement une requête PrivateSend.</translation>
+    </message>
+    <message>
+        <source>Reset the current status of PrivateSend (can interrupt PrivateSend if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Réinitialiser l'état actuel de PrivateSend (peut interrompre PrivateSend s'il est en plein mélange, ce qui peut vous coûter de l'argent !)</translation>
+    </message>
+    <message>
+        <source>Information about PrivateSend and Mixing</source>
+        <translation>Information sur PrivateSend et le mélange</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
-        <translation>Montant et Cycles</translation>
+        <translation>Montant et cycles :</translation>
     </message>
     <message>
-        <source>0 DNET / 0 Rounds</source>
-        <translation>0 DNET / 0 Cycles</translation>
+        <source>0 FLM / 0 Rounds</source>
+        <translation>0 FLM / 0 cycles</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
-        <translation>Denom soumis :</translation>
+        <translation>Coupures soumises :</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>n/a</translation>
-    </message>
-    <message>
-        <source>Obfuscate</source>
-        <translation>Obfuscate</translation>
+        <translation>n/d</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1452,27 +1711,23 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Start/Stop Mixing</source>
-        <translation>Démarrer/Arrêtér le mélange</translation>
+        <translation>Démarrer/Arrêter le mélange</translation>
+    </message>
+    <message>
+        <source>PrivateSend Balance:</source>
+        <translation>Solde PrivateSend :</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>Les dénominations que vous avez soumises à la Masternode.&lt;br&gt;Pour mélanger, d'autres utilisateurs doivent soumettre les mêmes dénominations.</translation>
+        <translation>Les coupures que vous avez soumises au masternode.&lt;br&gt;Pour mélanger, d'autres utilisateurs doivent soumettre des coupures de même montant.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
-        <translation>(Dernier Message)</translation>
-    </message>
-    <message>
-        <source>Try to manually submit a Obfuscate request.</source>
-        <translation>Essayer de soumettre manuellement une requête Obfuscate.</translation>
+        <translation>(Dernier message)</translation>
     </message>
     <message>
         <source>Try Mix</source>
         <translation>Essayer le mélange</translation>
-    </message>
-    <message>
-        <source>Reset the current status of Obfuscate (can interrupt Obfuscate if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Réinitialiser le statut de Obfuscate (peut interrompre Obfuscate si le process de mélange est en cours, ce qui peut vous coûter de l'argent !)</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1483,16 +1738,16 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>désynchronisé</translation>
     </message>
     <message>
-        <source>Disabled</source>
-        <translation>Désactivé</translation>
+        <source>Automatic backups are disabled, no mixing available!</source>
+        <translation>Les sauvegardes automatiques sont désactivées, le mélange n'est pas possible !</translation>
     </message>
     <message>
-        <source>Start Obfuscate Mixing</source>
-        <translation>Démarrer le mélange Obfuscate</translation>
+        <source>Start Mixing</source>
+        <translation>Commencer le mélange</translation>
     </message>
     <message>
-        <source>Stop Obfuscate Mixing</source>
-        <translation>Arrêter le mélange Obfuscate</translation>
+        <source>Stop Mixing</source>
+        <translation>Arrêter le mélange</translation>
     </message>
     <message>
         <source>No inputs detected</source>
@@ -1500,7 +1755,11 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message numerus="yes">
         <source>%n Rounds</source>
-        <translation><numerusform>%n Cycle</numerusform><numerusform>%n Cycles</numerusform></translation>
+        <translation><numerusform>%n Cycle</numerusform><numerusform>%n cycles</numerusform></translation>
+    </message>
+    <message>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Trouvé assez d'entrées compatibles pour anonymiser %1</translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
@@ -1508,11 +1767,15 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Overall progress</source>
-        <translation>Progrès global</translation>
+        <translation>Avancement global</translation>
     </message>
     <message>
         <source>Denominated</source>
-        <translation>Dénommées</translation>
+        <translation>Coupures</translation>
+    </message>
+    <message>
+        <source>Mixed</source>
+        <translation>Mélangés</translation>
     </message>
     <message>
         <source>Anonymized</source>
@@ -1520,45 +1783,77 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message numerus="yes">
         <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation><numerusform>Les entrées dénommées ont %5 sur %n cycles en moyennes</numerusform><numerusform>Les entrées dénommées ont %5 sur %n cycles en moyennes</numerusform></translation>
+        <translation><numerusform>Les coupures en entrée ont en moyenne %5 sur %n cycles</numerusform><numerusform>Les coupures en entrée ont en moyenne %5 sur %n cycles</numerusform></translation>
     </message>
     <message>
-        <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Assez d'entrées compatibles trouvées pour anonymiser %1</translation>
+        <source>keys left: %1</source>
+        <translation>clefs restantes : %1</translation>
     </message>
     <message>
-        <source>Mixed</source>
-        <translation>Mélangés</translation>
+        <source>Disabled</source>
+        <translation>Désactivé</translation>
+    </message>
+    <message>
+        <source>Very low number of keys left since last automatic backup!</source>
+        <translation>Il reste très peu de clefs depuis la dernière sauvegarde automatique !</translation>
+    </message>
+    <message>
+        <source>We are about to create a new automatic backup for you, however &lt;span style='color:red;'&gt; you should always make sure you have backups saved in some safe place&lt;/span&gt;!</source>
+        <translation>Une nouvelle sauvegarde automatique est sur le point d'être créée pour vous, cependant &lt;span style='color:red;'&gt;assurez-vous toujours d'avoir des sauvegardes en lieu sûr&lt;/span&gt; !</translation>
+    </message>
+    <message>
+        <source>Note: You turn this message off in options.</source>
+        <translation>Note : masquez ce message dans Options.</translation>
+    </message>
+    <message>
+        <source>WARNING! Something went wrong on automatic backup</source>
+        <translation>ATTENTION ! Quelque chose a mal tourné lors de la sauvegarde automatique</translation>
+    </message>
+    <message>
+        <source>ERROR! Failed to create automatic backup</source>
+        <translation>ERREUR ! Impossible de faire la sauvegarde automatique</translation>
+    </message>
+    <message>
+        <source>Mixing is disabled, please close your wallet and fix the issue!</source>
+        <translation>Le mélange est désactivé, veuillez fermer votre portefeuille et résoudre le problème !</translation>
     </message>
     <message>
         <source>Enabled</source>
         <translation>Activé</translation>
     </message>
     <message>
-        <source>Last Obfuscate message:
+        <source>see debug.log for details.</source>
+        <translation>voir le fichier debug.log pour le détail.</translation>
+    </message>
+    <message>
+        <source>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</source>
+        <translation>ATTENTION ! Impossible de réalimenter la série de clefs. Veuillez déverrouiller votre portefeuille pour cela.</translation>
+    </message>
+    <message>
+        <source>Last PrivateSend message:
 </source>
-        <translation>Dernier message de Obfuscate:
+        <translation>Dernier message PrivateSend :
 </translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>N.D.</translation>
+        <translation>n.d.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully reset.</source>
-        <translation>Obfuscate est réinitialisé avec succès</translation>
+        <source>PrivateSend was successfully reset.</source>
+        <translation>PrivateSend a bien été réinitialisé.</translation>
     </message>
     <message>
-        <source>If you don't want to see internal Obfuscate fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Pour ne pas voir les transactions/frais Obfuscate internes sélectionnez "Les plus Communes" comme Type dans l'onglet "Transactions"</translation>
+        <source>If you don't want to see internal PrivateSend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <translation>Pour ne pas afficher les transactions et frais PrivateSend internes, veuillez sélectionner le type "Les plus courantes" dans l'onglet "Transactions".</translation>
     </message>
     <message>
-        <source>Obfuscate requires at least %1 to use.</source>
-        <translation>Obfuscate nécessite au moins %1 pour l'utiliser</translation>
+        <source>PrivateSend requires at least %1 to use.</source>
+        <translation>PrivateSend nécessite au moins %1 pour être utilisé.</translation>
     </message>
     <message>
-        <source>Wallet is locked and user declined to unlock. Disabling Obfuscate.</source>
-        <translation>Le portefeuille est vérouillé et l'utilisateur a refusé de le débloquer. Désactivation de Obfuscate.</translation>
+        <source>Wallet is locked and user declined to unlock. Disabling PrivateSend.</source>
+        <translation>Le portefeuille est verrouillé et l'utilisateur a refusé de le déverrouiller. PrivateSend est donc désactivé.</translation>
     </message>
 </context>
 <context>
@@ -1569,19 +1864,15 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Cannot start folm: click-to-pay handler</source>
-        <translation>Impossible de démarrer folm: click-to-pay le gestionnaire</translation>
+        <translation>Impossible de démarrer le gestionnaire Folm click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>Gestion des URIs</translation>
+        <translation>Gestion des URI</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>L'URL de récupération de la demande de paiement est invalide : %1</translation>
-    </message>
-    <message>
-        <source>Payment request file handling</source>
-        <translation>Gestion des fichiers de demande de paiement</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
@@ -1589,11 +1880,15 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Folm address or malformed URI parameters.</source>
-        <translation>L'URI ne peut être analysé ! Ceci peut être causé par une adresse Folm invalide ou par des paramètres d'URI mal composé.</translation>
+        <translation>L'URI ne peut être analysée ! Cela peut provenir d'une adresse Folm invalide, ou de paramètres d'URI mal composés.</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Gestion des fichiers de demande de paiement</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Le fichier de demande de paiement ne peut pas être lu ou traité ! Ceci peut être causé par un fichier de demande de paiement invalide.</translation>
+        <translation>Le fichier de demande de paiement ne peut pas être lu ou traité ! Cela peut provenir d'un fichier de demande de paiement invalide.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
@@ -1604,20 +1899,24 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Le réseau de la demande de paiement ne correspond pas au réseau du client</translation>
     </message>
     <message>
-        <source>Payment request has expired.</source>
-        <translation>La demande de paiement a expiré</translation>
+        <source>Payment request expired.</source>
+        <translation>La demande de paiement a expiré.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>La demande de paiement n'est pas initialisée</translation>
+        <translation>La demande de paiement n'est pas initialisée.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Les demandes de paiements non vérifiées à des scripts de paiement personnalisés ne sont pas prises en charge.</translation>
+        <translation>Les demandes non vérifiées de paiement à des scripts de paiement personnalisés ne sont pas prises en charge.</translation>
+    </message>
+    <message>
+        <source>Invalid payment request.</source>
+        <translation>Demande de paiement invalide.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Le paiement demandé d'un montant de %1 est trop faible (considéré comme de la poussière).</translation>
+        <translation>Le paiement demandé d'un montant de %1 est trop faible (considéré comme de la "poussière").</translation>
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1628,20 +1927,16 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>La demande de paiement %1 est trop volumineuse (%2 octets sur %3 permis)</translation>
     </message>
     <message>
-        <source>Payment request DoS protection</source>
-        <translation>Protection DoS de la demande de paiement</translation>
-    </message>
-    <message>
         <source>Error communicating with %1: %2</source>
         <translation>Erreur de communication avec %1 : %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>La demande de paiement ne peux pas être analyzée!</translation>
+        <translation>La demande de paiement ne peut pas être analysée !</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Mauvaise réponse du serveur %1</translation>
+        <translation>Réponse invalide du serveur %1</translation>
     </message>
     <message>
         <source>Network request error</source>
@@ -1655,20 +1950,48 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
 <context>
     <name>PeerTableModel</name>
     <message>
-        <source>Address/Hostname</source>
-        <translation>Adresse/Nom d'hôte</translation>
+        <source>NodeId</source>
+        <translation>Id nœud</translation>
     </message>
     <message>
-        <source>Version</source>
-        <translation>Agent de l'utilisateur</translation>
+        <source>Node/Service</source>
+        <translation>Nœud/service</translation>
     </message>
     <message>
-        <source>Ping Time</source>
-        <translation>Temps de Ping</translation>
+        <source>User Agent</source>
+        <translation>Agent utilisateur</translation>
+    </message>
+    <message>
+        <source>Ping</source>
+        <translation>Ping</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
+    <message>
+        <source>Folm Core</source>
+        <translation>Folm Core</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Erreur : le répertoire de données spécifié « %1 » n'existe pas.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>Erreur : impossible d'analyser le fichier de configuration : %1. N’utilisez que la syntaxe clef=valeur.</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation>Erreur : %1</translation>
+    </message>
+    <message>
+        <source>Error reading masternode configuration file: %1</source>
+        <translation>Erreur de lecture du fichier de configuration du masternode : %1</translation>
+    </message>
+    <message>
+        <source>Folm Core didn't yet exit safely...</source>
+        <translation>Folm Core ne s'est pas encore arrêté en toute sécurité...</translation>
+    </message>
     <message>
         <source>Amount</source>
         <translation>Montant</translation>
@@ -1694,24 +2017,48 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>%1 s</translation>
     </message>
     <message>
-        <source>NETWORK</source>
-        <translation>RÉSEAU</translation>
-    </message>
-    <message>
-        <source>UNKNOWN</source>
-        <translation>INCONNU</translation>
-    </message>
-    <message>
         <source>None</source>
         <translation>Aucun</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>N.D.</translation>
+        <translation>n.d.</translation>
     </message>
     <message>
         <source>%1 ms</source>
         <translation>%1 ms</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>%n seconde</numerusform><numerusform>%n secondes</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>%n minute</numerusform><numerusform>%n minutes</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n heure</numerusform><numerusform>%n heures</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n jour</numerusform><numerusform>%n jours</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n semaine</numerusform><numerusform>%n semaines</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n année</numerusform><numerusform>%n années</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 et %2</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>inconnu</translation>
     </message>
 </context>
 <context>
@@ -1726,7 +2073,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Sauvegarder le code QR</translation>
+        <translation>Sauvegarder le QR-code</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
@@ -1757,15 +2104,11 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>N.D.</translation>
+        <translation>n.d.</translation>
     </message>
     <message>
         <source>Number of connections</source>
         <translation>Nombre de connexions</translation>
-    </message>
-    <message>
-        <source>Open the Folm debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvrir le fichier de debug Folm depuis le répertoire de données actuel. Ceci peut prendre plusieurs secondes pour un fichier de debug imposant.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1788,14 +2131,6 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Journal de débogage</translation>
     </message>
     <message>
-        <source>Using OpenSSL version</source>
-        <translation>Version d'OpenSSL utilisée</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Date de compilation</translation>
-    </message>
-    <message>
         <source>Current number of blocks</source>
         <translation>Nombre actuel de blocs</translation>
     </message>
@@ -1805,7 +2140,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Version BerkeleyDB utilisée</translation>
+        <translation>Version de BerkeleyDB</translation>
     </message>
     <message>
         <source>Block chain</source>
@@ -1813,7 +2148,23 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Nombre de Masternodes</translation>
+        <translation>Nombre de masternodes</translation>
+    </message>
+    <message>
+        <source>Memory Pool</source>
+        <translation>Zone mémoire</translation>
+    </message>
+    <message>
+        <source>Current number of transactions</source>
+        <translation>Nombre actuel de transactions</translation>
+    </message>
+    <message>
+        <source>Memory usage</source>
+        <translation>Utilisation mémoire</translation>
+    </message>
+    <message>
+        <source>Open the Folm Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvre le fichier de debug Folm Core depuis le répertoire de données actuel. Cela peut prendre plusieurs secondes si le fichier de debug est volumineux.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -1845,11 +2196,19 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>Liste des &amp;Pairs</translation>
+        <translation>Liste des &amp;pairs</translation>
+    </message>
+    <message>
+        <source>Banned peers</source>
+        <translation>Pairs bannis</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
         <translation>Choisir un pair pour voir les informations détaillées.</translation>
+    </message>
+    <message>
+        <source>Whitelisted</source>
+        <translation>Inscrit en liste blanche</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -1860,56 +2219,84 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>Version</source>
-        <translation>Agent de l'utilisateur</translation>
+        <source>Starting Block</source>
+        <translation>Bloc de départ</translation>
+    </message>
+    <message>
+        <source>Synced Headers</source>
+        <translation>En-têtes synchronisés</translation>
+    </message>
+    <message>
+        <source>Synced Blocks</source>
+        <translation>Blocs synchronisés</translation>
+    </message>
+    <message>
+        <source>Wallet Path</source>
+        <translation>Chemin du portefeuille</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>Agent utilisateur</translation>
+    </message>
+    <message>
+        <source>Datadir</source>
+        <translation>Rép. de données</translation>
+    </message>
+    <message>
+        <source>Decrease font size</source>
+        <translation>Diminuer la taille des caractères</translation>
+    </message>
+    <message>
+        <source>Increase font size</source>
+        <translation>Augmenter la taille des caractères</translation>
     </message>
     <message>
         <source>Services</source>
         <translation>Services</translation>
     </message>
     <message>
-        <source>Starting Height</source>
-        <translation>Hauteur de Démarrage</translation>
-    </message>
-    <message>
-        <source>Sync Height</source>
-        <translation>Hauteur de Synchro</translation>
-    </message>
-    <message>
         <source>Ban Score</source>
-        <translation>Score d'interdiction</translation>
+        <translation>Score de bannissement</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Temps de Connexion</translation>
+        <translation>Temps de connexion</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Dernier Envoi</translation>
+        <translation>Dernier envoi</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Dernière Reception</translation>
-    </message>
-    <message>
-        <source>Bytes Sent</source>
-        <translation>Octets Envoyés</translation>
-    </message>
-    <message>
-        <source>Bytes Received</source>
-        <translation>Octets Reçus</translation>
+        <translation>Dernière réception</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Temps de Ping</translation>
+        <translation>Temps de ping</translation>
+    </message>
+    <message>
+        <source>The duration of a currently outstanding ping.</source>
+        <translation>La durée d'un ping en cours.</translation>
+    </message>
+    <message>
+        <source>Ping Wait</source>
+        <translation>Attente du ping</translation>
+    </message>
+    <message>
+        <source>Min Ping</source>
+        <translation>Ping min.</translation>
+    </message>
+    <message>
+        <source>Time Offset</source>
+        <translation>Décalage temporel</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>&amp;Réparation de Portefeuille</translation>
+        <translation>&amp;Réparation de portefeuille</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Sauvetage de portefeuille</translation>
+        <translation>Récupération de portefeuille</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
@@ -1929,31 +2316,31 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>Les boutons ci-dessous redémarreront le portefeuille avec des paramètres de ligne de commande pour réparer le portefeuille, corriger des problèmes de fichiers corrompus de chaine de blocs ou de transactions manquantes ou obsolètes</translation>
+        <translation>Les boutons ci-dessous redémarreront le portefeuille avec des paramètres de ligne de commande afin de réparer le portefeuille, corriger des problèmes de fichiers corrompus de chaîne de blocs ou de transactions manquantes ou obsolètes.</translation>
     </message>
     <message>
         <source>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>-salvagewallet: Tenter de récupérer les clés privées d'un wallet.dat corrompu</translation>
+        <translation>-salvagewallet : Tente de récupérer les clefs privées d'un fichier "wallet.dat" corrompu.</translation>
     </message>
     <message>
         <source>-rescan: Rescan the block chain for missing wallet transactions.</source>
-        <translation>-rescan: Réanalyser la chaine de blocs pour les transactions de portefeuille manquantes</translation>
+        <translation>-rescan : Réanalyse la chaîne de blocs pour les transactions de portefeuille manquantes.</translation>
     </message>
     <message>
         <source>-zapwallettxes=1: Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>-zapwallettxes=1: Récupère les transactions depuis la chaine de blocs (en gardant les méta-données, ex. le nom du compte).</translation>
+        <translation>-zapwallettxes=1 : Récupère les transactions depuis la chaîne de blocs (en gardant les métadonnées, par ex. le nom du compte).</translation>
     </message>
     <message>
         <source>-zapwallettxes=2: Recover transactions from blockchain (drop meta-data).</source>
-        <translation>-zapwallettxes=2: Récupère les transactions depuis la chaine de blocs (sans garder les méta-données).</translation>
+        <translation>-zapwallettxes=2 : Récupère les transactions depuis la chaîne de blocs (sans garder les métadonnées).</translation>
     </message>
     <message>
         <source>-upgradewallet: Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>-upgradewallet: Mise à jour du format du fichier wallet.dat vers la dernière version au démarrage. (Note: ce n'est PAS une mise à jour du logiciel portefeuille!)</translation>
+        <translation>-upgradewallet : Mise à jour du format du fichier wallet.dat vers la dernière version au démarrage. (Note : ce n'est PAS une mise à jour du logiciel portefeuille !)</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>Options de réparation du  portefeuille.</translation>
+        <translation>Options de réparation du portefeuille.</translation>
     </message>
     <message>
         <source>Rebuild index</source>
@@ -1961,7 +2348,47 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>-reindex: Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>-reindex: Reconstruire l'index de la chaine de blocs à partir des fichiers blk000??.dat actuels.</translation>
+        <translation>-reindex: Reconstruit l'index de la chaîne de blocs à partir des fichiers blk000??.dat actuels.</translation>
+    </message>
+    <message>
+        <source>&amp;Disconnect</source>
+        <translation>&amp;Déconnecter</translation>
+    </message>
+    <message>
+        <source>Ban for</source>
+        <translation>Bannir pour</translation>
+    </message>
+    <message>
+        <source>1 &amp;hour</source>
+        <translation>1 &amp;heure</translation>
+    </message>
+    <message>
+        <source>1 &amp;day</source>
+        <translation>1 &amp;jour</translation>
+    </message>
+    <message>
+        <source>1 &amp;week</source>
+        <translation>1 &amp;semaine</translation>
+    </message>
+    <message>
+        <source>1 &amp;year</source>
+        <translation>1 &amp;an</translation>
+    </message>
+    <message>
+        <source>&amp;Unban</source>
+        <translation>Dé&amp;bannir</translation>
+    </message>
+    <message>
+        <source>Welcome to the Folm Core RPC console.</source>
+        <translation>Bienvenue sur la console RPC de Folm Core.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Utilisez les touches de curseur pour naviguer dans l'historique et &lt;b&gt;Ctrl-L&lt;/b&gt; pour effacer l'écran.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Tapez &lt;b&gt;help&lt;/b&gt; pour afficher une vue générale des commandes disponibles.</translation>
     </message>
     <message>
         <source>In:</source>
@@ -1972,16 +2399,8 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Sortant :</translation>
     </message>
     <message>
-        <source>Welcome to the Folm RPC console.</source>
-        <translation>Bienvenue sur la console RPC de Folm.</translation>
-    </message>
-    <message>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Utiliser les touches de curseur pour naviguer dans l'historique et &lt;b&gt;Ctrl-L&lt;/b&gt; pour effacer l'écran.</translation>
-    </message>
-    <message>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Taper &lt;b&gt;help&lt;/b&gt; pour afficher une vue générale des commandes disponibles.</translation>
+        <source>Network activity disabled</source>
+        <translation>Activité réseau désactivée</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2000,6 +2419,10 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>%1 Go</translation>
     </message>
     <message>
+        <source>(node id: %1)</source>
+        <translation>(id de nœud: %1)</translation>
+    </message>
+    <message>
         <source>via %1</source>
         <translation>via %1</translation>
     </message>
@@ -2016,19 +2439,23 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Sortant</translation>
     </message>
     <message>
-        <source>Unknown</source>
-        <translation>Inconnus</translation>
+        <source>Yes</source>
+        <translation>Oui</translation>
     </message>
     <message>
-        <source>Fetching...</source>
-        <translation>Récupération...</translation>
+        <source>No</source>
+        <translation>No</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Inconnus</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Réutilise une adresse de réception précédemment utilisée.&lt;br&gt;Réutiliser une adresse pose des problèmes de sécurité et de vie privée.&lt;br&gt;N'utilisez pas cette option sauf si vous générez à nouveau une demande de paiement déjà faite.</translation>
+        <translation>Réutilise une adresse de réception précédemment utilisée.&lt;br&gt;Réutiliser une adresse pose des problèmes de sécurité et de vie privée.&lt;br&gt;N'utilisez pas cette option, sauf si vous générez à nouveau une demande de paiement déjà faite.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
@@ -2036,7 +2463,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Folm network.</source>
-        <translation>Un message optionnel à joindre à la demande de paiement, qui sera affiché quand la demande sera ouverte. Note : Ce message ne sera pas envoyé avec le paiement à travers le réseau Folm.</translation>
+        <translation>Un message optionnel à joindre à la demande de paiement, qui sera affiché quand la demande sera ouverte. Note : ce message ne sera pas envoyé avec le paiement à travers le réseau Folm.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2044,15 +2471,15 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Un étiquette optionnelle à associer à la nouvelle adresse de réception</translation>
+        <translation>Une étiquette optionnelle à associer à la nouvelle adresse de réception.</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Folm network.</source>
-        <translation>Un message optionnel à joindre à la demande de paiement, qui sera affiché quand la demande sera ouverte.&lt;br&gt;Note : Ce message ne sera pas envoyé avec le paiement à travers le réseau Folm.</translation>
+        <translation>Un message optionnel à joindre à la demande de paiement, qui sera affiché quand la demande sera ouverte.&lt;br&gt;Note : ce message ne sera pas envoyé avec le paiement à travers le réseau Folm.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Utiliser ce formulaire pour demander des paiements. Tous les champs sont  &lt;b&gt;optionnels&lt;/b&gt;.</translation>
+        <translation>Utilisez ce formulaire pour demander des paiements. Tous les champs sont  &lt;b&gt;optionnels&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -2060,7 +2487,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Un montant optionnel à demander. Laisser ceci vide ou à zéro pour ne pas demander de montant spécifique.</translation>
+        <translation>Un montant optionnel à demander. Laissez-le vide ou à zéro pour ne pas demander de montant spécifique.</translation>
     </message>
     <message>
         <source>&amp;Amount:</source>
@@ -2068,7 +2495,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Demande de paiement</translation>
+        <translation>&amp;Demander un paiement</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -2077,6 +2504,10 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     <message>
         <source>Clear</source>
         <translation>Effacer</translation>
+    </message>
+    <message>
+        <source>Request InstantSend</source>
+        <translation>Demander un paiement InstantSend</translation>
     </message>
     <message>
         <source>Requested payments history</source>
@@ -2099,6 +2530,10 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Enlever</translation>
     </message>
     <message>
+        <source>Copy URI</source>
+        <translation>Copier l'&amp;URI</translation>
+    </message>
+    <message>
         <source>Copy label</source>
         <translation>Copier l’étiquette</translation>
     </message>
@@ -2115,7 +2550,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>Code QR</translation>
+        <translation>QR-code</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
@@ -2158,12 +2593,24 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Message</translation>
     </message>
     <message>
+        <source>InstantSend</source>
+        <translation>InstantSend</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Oui</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Non</translation>
+    </message>
+    <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>L'URI résultant est trop long, essayez de réduire le texte d'étiquette / de message.</translation>
+        <translation>L'URI résultante est trop longue. Essayez de réduire le texte d'étiquette ou de message.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Erreur d'encodage de l'URI en code QR.</translation>
+        <translation>Erreur d'encodage de l'URI en QR-code.</translation>
     </message>
 </context>
 <context>
@@ -2181,10 +2628,6 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Message</translation>
     </message>
     <message>
-        <source>Amount</source>
-        <translation>Montant</translation>
-    </message>
-    <message>
         <source>(no label)</source>
         <translation>(pas d'étiquette)</translation>
     </message>
@@ -2196,12 +2639,16 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <source>(no amount)</source>
         <translation>(aucun montant)</translation>
     </message>
+    <message>
+        <source>Amount</source>
+        <translation>Montant</translation>
+    </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Envoyer des pièces</translation>
+        <translation>Envoyer de l'argent</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2232,24 +2679,12 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Montant :</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Priorité :</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>moyen</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>Frais :</translation>
     </message>
     <message>
         <source>Dust:</source>
         <translation>Poussière:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>non</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -2261,7 +2696,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Si ceci est actif mais l'adresse de monnaie rendue est vide ou invalide, la monnaie sera envoyée vers une adresse nouvellement générée.</translation>
+        <translation>Si ceci est activé mais avec une adresse de monnaie rendue vide ou invalide, la monnaie sera envoyée vers une adresse nouvellement générée.</translation>
     </message>
     <message>
         <source>Custom change address</source>
@@ -2269,7 +2704,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Frais de Transaction:</translation>
+        <translation>Frais de transaction :</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -2280,24 +2715,32 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>replier les paramètres de frais</translation>
     </message>
     <message>
-        <source>Minimize</source>
-        <translation>Minimiser</translation>
+        <source>PrivateSend</source>
+        <translation>PrivateSend</translation>
+    </message>
+    <message>
+        <source>InstantSend</source>
+        <translation>InstantSend</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si les frais personnalisés sont à 1000 duffs et que la transaction fait seulement 250 octets, alors "par kilooctet" payera seulement 250 duffs de frais,&lt;br /&gt;alors que "au moins" payera 1000 duffs. Pour les transactions de plus d'un kilooctet les deux payeront par kilooctet.</translation>
+        <translation>Si les frais personnalisés sont à 1000 duffs et que la transaction fait seulement 250 octets, alors "par kilooctet" coûtera seulement 250 duffs de frais,&lt;br /&gt;alors que "au moins" coûtera 1000 duffs. Pour les transactions de plus d'un kilooctet, les deux coûts seront calculés au kilooctet.</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si les frais personnalisés sont à 1000 duffs et que la transaction fait seulement 250 octets, alors "par kilooctet" payera seulement 250 duffs de frais,&lt;br /&gt;alors que "total au moins" payera 1000 duffs. Pour les transactions de plus d'un kilooctet les deux payeront par kilooctet.</translation>
+        <translation>Si les frais personnalisés sont à 1000 duffs et que la transaction fait seulement 250 octets, alors "par kilooctet" coûtera seulement 250 duffs de frais,&lt;br /&gt;alors que "total au moins" coûtera 1000 duffs. Pour les transactions de plus d'un kilooctet, les deux coûts seront calculés au kilooctet.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for folm transactions than the network can process.</source>
-        <translation>Payer les frais minimums fonctionne tant qu'il y a moins de volume de transactions que de place dans les blocs.&lt;br/&gt;Mais soyez conscients que ceci peut amener a des transactions qui ne seront jamais confirmées lorsqu'il y aura plus de demande que la capacité du réseau.</translation>
+        <translation>Payer les frais minimaux fonctionne tant que le volume des transactions est inférieur à l'espace libre dans les blocs.&lt;br/&gt;Gardez à l'esprit que cette option peut entraîner des transactions qui ne seront jamais confirmées si la demande excède la capacité du réseau.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
         <translation>par kilooctet</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Cacher</translation>
     </message>
     <message>
         <source>total at least</source>
@@ -2309,19 +2752,19 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Recommandé:</translation>
+        <translation>Recommandé :</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Personnalisé:</translation>
+        <translation>Personnalisé :</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Les frais intelligents ne sont pas encore initialisés . Ceci nécessite quelques blocs généralement...)</translation>
+        <translation>(Les frais intelligents ne sont pas encore disponibles. Cette fonction apparaît d'habitude après quelques blocs...)</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
-        <translation>Temps de Confirmation:</translation>
+        <translation>Temps de confirmation :</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2364,14 +2807,6 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Ajouter un &amp;destinataire</translation>
     </message>
     <message>
-        <source>Obfuscate</source>
-        <translation>Obfuscate</translation>
-    </message>
-    <message>
-        <source>quickTX</source>
-        <translation>quickTX</translation>
-    </message>
-    <message>
         <source>Balance:</source>
         <translation>Solde :</translation>
     </message>
@@ -2396,10 +2831,6 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Copier les octets</translation>
     </message>
     <message>
-        <source>Copy priority</source>
-        <translation>Copier la priorité</translation>
-    </message>
-    <message>
         <source>Copy dust</source>
         <translation>Copier poussière</translation>
     </message>
@@ -2416,16 +2847,16 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>fonds anonymisés</translation>
     </message>
     <message>
-        <source>(obfuscate requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(obfuscate nécessite que ce montant soit arrondi au plus proche de %1).</translation>
+        <source>(privatesend requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(PrivateSend nécessite que ce montant soit arrondi au plus proche de %1).</translation>
     </message>
     <message>
-        <source>any available funds (not recommended)</source>
-        <translation>tout fonds disponible (non recommandé)</translation>
+        <source>any available funds (not anonymous)</source>
+        <translation>tous fonds disponibles (pas d'anonymat)</translation>
     </message>
     <message>
-        <source>and quickTX</source>
-        <translation>et quickTX</translation>
+        <source>and InstantSend</source>
+        <translation>et InstantSend</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2437,31 +2868,23 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>ajouté en tant que frais de transaction</translation>
+        <translation>ajoutés en tant que frais de transaction</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Montant Total = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Confirmer l’envoi des pièces</translation>
-    </message>
-    <message>
-        <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
-        <translation>Des frais %1 plus grands que %2 par koctets sont considéres comme excessifs.</translation>
-    </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Le début de confirmation est estimé dans %n bloc.</numerusform><numerusform>Le début de confirmation est estimé dans les %n blocs.</numerusform></translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>L'adresse du destinataire n’est pas valide, veuillez la vérifier.</translation>
+        <translation>Montant total = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
         <translation>&lt;b&gt;(%1 sur %2 entrées affichées)&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Confirmer l’envoi des fonds</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation>L'adresse du destinataire n’est pas valide. Veuillez la vérifier.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -2476,8 +2899,8 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Le montant dépasse votre solde lorsque les frais de transaction de %1 sont inclus.</translation>
     </message>
     <message>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Adresse indentique trouvée, il n'est possible d'envoyer qu'une fois à chaque adresse par opération d'envoi.</translation>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>Adresse déjà utilisée : chaque adresse devrait n'être utilisée qu'une seule fois.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -2485,19 +2908,27 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>La transaction a été rejetée ! Ceci peut arriver si certaines pièces de votre portefeuille étaient déjà dépensées, par exemple si vous avez utilisé une copie de wallet.dat et que des pièces ont été dépensées dans la copie sans être marquées comme telles ici.</translation>
+        <translation>La transaction a été rejetée ! Ceci peut arriver si certaines pièces de votre portefeuille étaient déjà dépensées, par exemple si vous avez utilisé une copie de "wallet.dat" et que des pièces ont été dépensées dans la copie sans être signalées comme telles ici.</translation>
     </message>
     <message>
-        <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Erreur: Le portefeuille a été déverouillé seulement pour l'anonymisation des pièces.</translation>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>Des frais plus grands que %1 sont considérés comme ridiculement élevées.</translation>
     </message>
     <message>
-        <source>Pay only the minimum fee of %1</source>
-        <translation>Payer seulement les frais minimum de %1</translation>
+        <source>Payment request expired.</source>
+        <translation>La demande de paiement a expiré.</translation>
+    </message>
+    <message>
+        <source>Pay only the required fee of %1</source>
+        <translation>Payer seulement les frais requis de %1</translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Le début de confirmation est estimé dans %n bloc.</numerusform><numerusform>Le début de confirmation est estimé dans les %n blocs.</numerusform></translation>
     </message>
     <message>
         <source>Warning: Invalid Folm address</source>
-        <translation>Attention: adresse Folm invalide</translation>
+        <translation>Attention : adresse Folm invalide</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2555,16 +2986,28 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>&amp;Montant :</translation>
     </message>
     <message>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Folm than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Les frais vont être déduits du montant envoyé. Le destinataire recevra moins de folms que ce que vous avez indiqué dans la case montant. S'il y a plusieurs destinataires, les frais seront partagés équitablement.</translation>
+    </message>
+    <message>
+        <source>S&amp;ubtract fee from amount</source>
+        <translation>So&amp;ustraire les frais du montant</translation>
+    </message>
+    <message>
         <source>Message:</source>
         <translation>Message :</translation>
     </message>
     <message>
         <source>A message that was attached to the folm: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Folm network.</source>
-        <translation>Un message qui était joint au Folm : URI qui sera sauvegardée avec la transaction pour référence. Note : Ce message ne sera pas envoyé à travers le réseau Folm.</translation>
+        <translation>Un message joint à l'URI Folm qui sera sauvegardé avec la transaction pour référence. Note : ce message ne sera pas envoyé à travers le réseau Folm.</translation>
     </message>
     <message>
-        <source>This is an unverified payment request.</source>
-        <translation>Ceci est une demande de paiement non vérifiée.</translation>
+        <source>This is an unauthenticated payment request.</source>
+        <translation>Ceci est une demande de paiement non authentifiée.</translation>
+    </message>
+    <message>
+        <source>This is an authenticated payment request.</source>
+        <translation>Ceci est une demande de paiement authentifiée.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2575,12 +3018,8 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Mémo :</translation>
     </message>
     <message>
-        <source>This is a verified payment request.</source>
-        <translation>Ceci est une demande de paiement vérifiée.</translation>
-    </message>
-    <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Saisir une étiquette pour cette adresse afin de l’ajouter à votre carnet d’adresses</translation>
+        <translation>Donner une étiquette à cette adresse afin de l’ajouter à votre carnet d’adresses</translation>
     </message>
 </context>
 <context>
@@ -2591,7 +3030,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Ne pas fermer l'ordinateur jusqu'à la disparition de cette fenêtre.</translation>
+        <translation>Ne pas éteindre votre ordinateur avant disparition de cette fenêtre.</translation>
     </message>
 </context>
 <context>
@@ -2605,8 +3044,8 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>&amp;Signer un message</translation>
     </message>
     <message>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Vous pouvez signer des messages avec vos adresses pour prouver que vous les détenez. Faites attention de ne pas signer de vague car des attaques d'hameçonnage peuvent essayer d'usurper votre identité par votre signature. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous serez d'accord.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Folm sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Vous pouvez signer des messages ou contrats avec vos adresses, et ainsi prouver que vous pouvez y recevoir des folms. Faites attention de ne pas signer quoi que ce soit de vague ou d'aléatoire, car des attaques d'hameçonnage peuvent essayer d'usurper votre identité en utilisant votre signature. Ne signez que des déclarations très détaillées et avec lesquelles vous êtes entièrement d'accord.</translation>
     </message>
     <message>
         <source>The Folm address to sign the message with</source>
@@ -2661,8 +3100,8 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>&amp;Vérifier un message</translation>
     </message>
     <message>
-        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Saisir ci-dessous l'adresse de signature, le message (assurez-vous d'avoir copié exactement les retours à la ligne, les espaces, tabulations etc.) et la signature pour vérifier le message. Faire attention à ne pas déduire davantage de la signature que ce qui est contenu dans le message signé lui-même pour éviter d'être trompé par une attaque d'homme du milieu.</translation>
+        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <translation>Saisir ci-dessous l'adresse du destinataire, le message (assurez-vous d'avoir copié exactement les retours à la ligne, les espaces, tabulations, etc.) et la signature pour vérifier le message. Faites attention à ne pas déduire davantage de la signature que ce qui est contenu dans le message signé lui-même, pour éviter d'être trompé par une attaque "man in the middle". Gardez à l'esprit que cette opération prouve uniquement que le destinataire peut recevoir des fonds dans l'adresse donnée, cela ne prouve pas l'identité de l'expéditeur d'une transaction !</translation>
     </message>
     <message>
         <source>The Folm address the message was signed with</source>
@@ -2736,6 +3175,10 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
+        <source>[testnet]</source>
+        <translation>[réseau de test]</translation>
+    </message>
+    <message>
         <source>Folm Core</source>
         <translation>Folm Core</translation>
     </message>
@@ -2748,12 +3191,12 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Les développeurs Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Folm Core developers</source>
+        <source>The Dash Core Developers</source>
         <translation>Les développeurs Folm Core</translation>
     </message>
     <message>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <source>Folm Coin developers</source>
+        <translation>Les développeurs Folm Core</translation>
     </message>
 </context>
 <context>
@@ -2778,20 +3221,24 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>en conflit</translation>
     </message>
     <message>
-        <source>%1/offline (verified via quicktx)</source>
-        <translation>%1/déconnecté (vérifié avec quicktx)</translation>
-    </message>
-    <message>
-        <source>%1/confirmed (verified via quicktx)</source>
-        <translation>%1/confirmé (verifié avec quicktx)</translation>
-    </message>
-    <message>
-        <source>%1 confirmations (verified via quicktx)</source>
-        <translation>%1 confirmations (verifié avec quicktx)</translation>
-    </message>
-    <message>
         <source>%1/offline</source>
         <translation>%1/déconnecté</translation>
+    </message>
+    <message>
+        <source>0/unconfirmed, %1</source>
+        <translation>0/non confirmée, %1</translation>
+    </message>
+    <message>
+        <source>in memory pool</source>
+        <translation>dans la zone mémoire</translation>
+    </message>
+    <message>
+        <source>not in memory pool</source>
+        <translation>hors de la zone mémoire</translation>
+    </message>
+    <message>
+        <source>abandoned</source>
+        <translation>abandonné</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
@@ -2802,24 +3249,16 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>%1 confirmations</translation>
     </message>
     <message>
-        <source>%1/offline (quickTX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1/déconnecté (vérification d'quickTX en cours - %2 sur %3 signatures)</translation>
+        <source>verified via InstantSend</source>
+        <translation>vérifié via InstantSend</translation>
     </message>
     <message>
-        <source>%1/confirmed (quickTX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1/confirmé (vérification d'quickTX en cours - %2 sur %3 signatures)</translation>
+        <source>InstantSend verification in progress - %1 of %2 signatures</source>
+        <translation>Vérification InstantSend en cours - %1 de %2 signatures</translation>
     </message>
     <message>
-        <source>%1 confirmations (quickTX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 confirmations (vérification d'quickTX en cours - %2 sur %3 signatures)</translation>
-    </message>
-    <message>
-        <source>%1/offline (quickTX verification failed)</source>
-        <translation>%1/déconnecté (La vérification d'quickTX a échoué)</translation>
-    </message>
-    <message>
-        <source>%1/confirmed (quickTX verification failed)</source>
-        <translation>%1/confirmé (La vérification d'quickTX a échoué)</translation>
+        <source>InstantSend verification failed</source>
+        <translation>Echec de la vérification InstantSend</translation>
     </message>
     <message>
         <source>Status</source>
@@ -2875,7 +3314,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>arrive à maturité dans %n bloc de plus</numerusform><numerusform>arrive à maturité dans %n blocs de plus</numerusform></translation>
+        <translation><numerusform>arrive à maturité dans %n bloc de plus</numerusform><numerusform>arrivera à maturité dans %n blocs</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -2887,11 +3326,11 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Total débit</translation>
+        <translation>Débit total</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Total crédit</translation>
+        <translation>Crédit total</translation>
     </message>
     <message>
         <source>Transaction fee</source>
@@ -2914,12 +3353,16 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>ID de la transaction</translation>
     </message>
     <message>
+        <source>Transaction total size</source>
+        <translation>Taille totale de la transaction</translation>
+    </message>
+    <message>
         <source>Merchant</source>
         <translation>Marchand</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Les pièces générées doivent mûrir pendant %1 blocs avant de pouvoir être dépensées. Lorsque vous avez généré ce bloc, il a été diffusé sur le réseau pour être ajouté à la chaîne de blocs. S’il échoue a intégrer la chaîne, son état sera modifié en « non accepté » et il ne sera pas possible de le dépenser. Ceci peut arriver occasionnellement si un autre nœud génère un bloc à quelques secondes du votre.</translation>
+        <translation>Les pièces générées doivent mûrir pendant %1 blocs avant de pouvoir être dépensées. Lorsque vous avez généré ce bloc, il a été diffusé sur le réseau pour être ajouté à la chaîne de blocs. S’il échoue à intégrer la chaîne, son état sera modifié en « non accepté » et il ne sera pas possible de le dépenser. Ceci peut arriver occasionnellement si un autre nœud génère un bloc à quelques secondes du vôtre.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2968,8 +3411,8 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Type</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Adresse</translation>
+        <source>Address / Label</source>
+        <translation>Adresse / Étiquette</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
@@ -2986,6 +3429,10 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     <message>
         <source>Unconfirmed</source>
         <translation>Non confirmé</translation>
+    </message>
+    <message>
+        <source>Abandoned</source>
+        <translation>Abandonné</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
@@ -3005,7 +3452,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ce bloc n’a été reçu par aucun autre nœud et ne sera probablement pas accepté !</translation>
+        <translation>Ce bloc n’a été reçu par aucun autre nœud et sera probablement rejeté !</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -3020,8 +3467,8 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Reçue de</translation>
     </message>
     <message>
-        <source>Received via Obfuscate</source>
-        <translation>Reçu par Obfuscate</translation>
+        <source>Received via PrivateSend</source>
+        <translation>Reçu par PrivateSend</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -3036,24 +3483,24 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Miné</translation>
     </message>
     <message>
-        <source>Obfuscate Denominate</source>
-        <translation>Dénomination Obfuscate</translation>
+        <source>PrivateSend Denominate</source>
+        <translation>Coupure PrivateSend</translation>
     </message>
     <message>
-        <source>Obfuscate Collateral Payment</source>
-        <translation>Paiement Obfuscate Collatéral</translation>
+        <source>PrivateSend Collateral Payment</source>
+        <translation>Paiement de caution PrivateSend</translation>
     </message>
     <message>
-        <source>Obfuscate Make Collateral Inputs</source>
-        <translation>Obfuscate Création d'Entrées Collatérales</translation>
+        <source>PrivateSend Make Collateral Inputs</source>
+        <translation>Création d'entrées de caution PrivateSend</translation>
     </message>
     <message>
-        <source>Obfuscate Create Denominations</source>
-        <translation>Obfuscate Création de Dénominations</translation>
+        <source>PrivateSend Create Denominations</source>
+        <translation>Création de coupures PrivateSend</translation>
     </message>
     <message>
-        <source>Obfuscated</source>
-        <translation>Obfuscated</translation>
+        <source>PrivateSend</source>
+        <translation>PrivateSend</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3062,6 +3509,10 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     <message>
         <source>(n/a)</source>
         <translation>(n.d)</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(pas d'étiquette)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
@@ -3080,8 +3531,8 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Si une adresse en lecture seule est impliquée dans cette transaction.</translation>
     </message>
     <message>
-        <source>Destination address of transaction.</source>
-        <translation>L’adresse de destination de la transaction.</translation>
+        <source>User-defined intent/purpose of the transaction.</source>
+        <translation>Intention/raison de la transaction définie par l'utilisateur</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -3120,7 +3571,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Most Common</source>
-        <translation>Les Plus Courants</translation>
+        <translation>Les plus courants</translation>
     </message>
     <message>
         <source>Received with</source>
@@ -3131,24 +3582,24 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Envoyée à</translation>
     </message>
     <message>
-        <source>Obfuscated</source>
-        <translation>Obfuscated</translation>
+        <source>PrivateSend</source>
+        <translation>PrivateSend</translation>
     </message>
     <message>
-        <source>Obfuscate Make Collateral Inputs</source>
-        <translation>Obfuscate Création d'Entrées Collatérales</translation>
+        <source>PrivateSend Make Collateral Inputs</source>
+        <translation>Création d'entrées de caution PrivateSend</translation>
     </message>
     <message>
-        <source>Obfuscate Create Denominations</source>
-        <translation>Obfuscate Création de Dénominations</translation>
+        <source>PrivateSend Create Denominations</source>
+        <translation>Création de coupures PrivateSend</translation>
     </message>
     <message>
-        <source>Obfuscate Denominate</source>
-        <translation>Dénomination Obfuscate</translation>
+        <source>PrivateSend Denominate</source>
+        <translation>Coupure PrivateSend</translation>
     </message>
     <message>
-        <source>Obfuscate Collateral Payment</source>
-        <translation>Paiement Obfuscate Collatéral</translation>
+        <source>PrivateSend Collateral Payment</source>
+        <translation>Paiement de caution PrivateSend</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -3171,6 +3622,10 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Montant min.</translation>
     </message>
     <message>
+        <source>Abandon transaction</source>
+        <translation>Abandonner la transaction</translation>
+    </message>
+    <message>
         <source>Copy address</source>
         <translation>Copier l’adresse</translation>
     </message>
@@ -3185,6 +3640,14 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     <message>
         <source>Copy transaction ID</source>
         <translation>Copier l'ID de la transaction</translation>
+    </message>
+    <message>
+        <source>Copy raw transaction</source>
+        <translation>Copier la transaction brute</translation>
+    </message>
+    <message>
+        <source>Copy full transaction details</source>
+        <translation>Copier les détails complets de la transaction</translation>
     </message>
     <message>
         <source>Edit label</source>
@@ -3259,25 +3722,29 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Unité utilisée pour montrer les montants. Cliquez pour choisir une autre unité.</translation>
+        <translation>Unité utilisée pour l'affichage des montants. Cliquez pour choisir une autre unité.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Aucun portefeuille de chargé.</translation>
+        <translation>Aucun portefeuille chargé.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Envoyer des pièces</translation>
+        <translation>Envoyer des fonds</translation>
     </message>
     <message>
-        <source>quickTX doesn't support sending values that high yet. Transactions are currently limited to %1 DNET.</source>
-        <translation>quickTX ne supporte pas des transferts aussi élevés. Les transactions sont pour le moment limitées à %11 DNET.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 FLM.</source>
+        <translation>InstantSend ne supporte pas des transferts aussi élevés. Les transactions sont pour le moment limitées à %1 FLM.</translation>
+    </message>
+    <message>
+        <source>Used way too many inputs (&gt;%1) for this InstantSend transaction, fees could be huge.</source>
+        <translation>Vous avez utilisé bien trop d'entrées (&gt;%1) pour cette transaction InstantSend, les frais peuvent être énormes.</translation>
     </message>
 </context>
 <context>
@@ -3292,7 +3759,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Selected amount:</source>
-        <translation>Montant sélectionné:</translation>
+        <translation>Montant sélectionné :</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
@@ -3330,16 +3797,8 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Folm Core fonctionne probablement déjà.</translation>
     </message>
     <message>
-        <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Obfuscate utilise les montants dénominés exacts pour envoyer des fonds, vous pourriez simplement avoir besoin d'anonymiser plus de pièces.</translation>
-    </message>
-    <message>
-        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
-        <translation>Passer en mode de test de régression qui utilise une chaîne spéciale dans laquelle les blocs sont résolus instantanément.</translation>
-    </message>
-    <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Erreur: L'écoute de connections entrantes a échouée (erreur retournée: %s)</translation>
+        <translation>Erreur : l'écoute des connexions entrantes a échoué (erreur retournée : %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3352,14 +3811,6 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Exécuter la commande lorsque le meilleur bloc change (%s dans cmd est remplacé par le hachage du bloc)</translation>
-    </message>
-    <message>
-        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>Dans ce mode -genproclimit contrôle combien de blocs sont générés immédiatement.</translation>
-    </message>
-    <message>
-        <source>quickTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>quickTX nécessite des entrées avec au moins 6 confirmations, vous devriez attendre quelques minutes avant de réessayer.</translation>
     </message>
     <message>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
@@ -3379,47 +3830,27 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Ceci est une pré-version de test - l'utiliser à vos risques et périls - ne pas l'utiliser pour miner ou pour des applications marchandes</translation>
+        <translation>Ceci est une pré-version de test - Veuillez l'utiliser à vos risques et périls - Ne pas l'utiliser pour miner ou pour des applications marchandes</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Folm Core is probably already running.</source>
         <translation>Impossible de se lier à %s sur cet ordinateur. Folm Core fonctionne probablement déjà.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
-        <translation>Impossible de localiser suffisamment de fonds Obfuscate dénominés pour cette transaction.</translation>
-    </message>
-    <message>
-        <source>Unable to locate enough Obfuscate non-denominated funds for this transaction that are not equal 1000 DNET.</source>
-        <translation>Impossible de localiser suffisamment de fonds non-dénominés Obfuscate pour cette transaction qui ne sont pas égaux à 1000 DNET.</translation>
-    </message>
-    <message>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Attention : -paytxfee est réglée sur un montant très élevé ! Il s'agit des frais de transaction que vous payerez si vous envoyez une transaction.</translation>
-    </message>
-    <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Attention : Le réseau ne semble pas totalement d'accord ! Quelques mineurs semblent éprouver des difficultés.</translation>
+        <translation>Attention : le réseau ne paraît pas totalement d'accord ! Quelques mineurs semblent éprouver des difficultés.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Attention : Nous ne semblons pas être en accord complet avec nos pairs ! Vous pourriez avoir besoin d'effectuer une mise à niveau, ou d'autres nœuds du réseau pourraient avoir besoin d'effectuer une mise à niveau.</translation>
-    </message>
-    <message>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Avertissement : une erreur est survenue lors de la lecture de wallet.dat ! Toutes les clefs ont été lues correctement mais les données de transaction ou les entrées du carnet d'adresses sont peut-être incorrectes ou manquantes.</translation>
+        <translation>Attention : nous ne semblons pas être en accord complet avec nos pairs ! Peut-être devez-vous faire une mise à jour, ou d'autres nœuds du réseau ont besoin de faire une mise à jour.</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Avertissement : wallet.dat corrompu, données récupérées ! Le fichier wallet.dat original a été enregistré en tant que wallet.{timestamp}.bak dans %s ; si votre solde ou transactions sont incorrects vous devriez effectuer une restauration depuis une sauvegarde.</translation>
+        <translation>Avertissement : wallet.dat corrompu, données récupérées ! Le fichier wallet.dat original a été enregistré en tant que wallet.{timestamp}.bak dans %s ; si votre solde ou transactions sont incorrects, vous devriez effectuer une restauration depuis une sauvegarde.</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Vous devez définir masternodeprivkey dans la configuration. Veuillez consulter la documentation pour plus d'aide.</translation>
-    </message>
-    <message>
-        <source>(default: 1)</source>
-        <translation>(par défaut : 1)</translation>
+        <translation>Vous devez définir "masternodeprivkey" dans la configuration. Veuillez consulter la documentation pour obtenir plus d'aide.</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -3427,7 +3858,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accepter les connexions entrantes (par défaut : 1 si aucun -proxy ou -connect )</translation>
+        <translation>Accepter les connexions entrantes (par défaut : 1 si aucun -proxy ou -connect)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
@@ -3442,16 +3873,8 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Entrée déjà présente.</translation>
     </message>
     <message>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Tenter de récupérer les clefs privées d'un wallet.dat corrompu</translation>
-    </message>
-    <message>
         <source>Block creation options:</source>
         <translation>Options de création de bloc :</translation>
-    </message>
-    <message>
-        <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Ne peux pas dénommée: pas d'entrées compatibles restantes.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -3471,7 +3894,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Collateral not valid.</source>
-        <translation>Collatéral invalide.</translation>
+        <translation>Caution invalide.</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
@@ -3479,7 +3902,7 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Se connecter à un nœud pour obtenir des adresses de pairs puis se déconnecter</translation>
+        <translation>Se connecter à un nœud pour obtenir des adresses de pairs, puis se déconnecter</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -3487,19 +3910,11 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Base corrompue de données des blocs détectée</translation>
-    </message>
-    <message>
-        <source>Obfuscate options:</source>
-        <translation>Options Obfuscate :</translation>
+        <translation>Détection d'une corruption de la base de données des blocs</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
         <translation>Options de test/de débogage :</translation>
-    </message>
-    <message>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Découvrir sa propre adresse IP (par défaut : 1 lors de l'écoute et si aucun -externalip)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
@@ -3546,48 +3961,44 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Erreur à la lecture de la base de données, arrêt en cours.</translation>
     </message>
     <message>
-        <source>Error recovering public key.</source>
-        <translation>Erreur à la récupération de la clé publique.</translation>
-    </message>
-    <message>
         <source>Error</source>
         <translation>Erreur</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Erreur : l'espace disque est faible !</translation>
-    </message>
-    <message>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Erreur : Portefeuille verrouillé, impossible de créer la transaction !</translation>
-    </message>
-    <message>
-        <source>Error: You already have pending entries in the Obfuscate pool</source>
-        <translation>Erreur : Vous avez déjà des entrées en attente dans la pool Obfuscate</translation>
+        <translation>Erreur : l'espace disque restant est faible !</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Échec de l'écoute sur un port quelconque. Utilisez -listen=0 si vous voulez ceci.</translation>
     </message>
     <message>
-        <source>Failed to read block</source>
-        <translation>La lecture du bloc a échoué</translation>
-    </message>
-    <message>
-        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>Si &lt;category&gt; n'est pas indiqué, extraire toutes les données de débogage.</translation>
-    </message>
-    <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = garder les méta-données de tx, par ex nom de compte et infos de paiements, 2 = supprimer méta-données)</translation>
     </message>
     <message>
-        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Permettre connections JSON-RPC depuis la source spécifiée. Valide pour &lt;ip&gt; sont: une IP seule (ex. 1.2.3.4), un réseau/masque (ex. 1.2.3.4/255.255.255.0) ou un réseau/CIDR (ex. 1.2.3.4/24). Ce paramétre peut être utilisé plusieurs fois.</translation>
+        <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
+        <translation>-fallbackfee est réglée sur un montant très élevé ! Il s'agit des frais de transaction que vous pouvez payer quand l'estimation des frais est indisponible.</translation>
     </message>
     <message>
-        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
-        <translation>Une erreur est survenue lors du réglage RPC avec l'adresse %s port %u pour écouter: %s</translation>
+        <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>-maxtxfee est réglée sur un montant très élevé ! Ces frais aussi élevés peuvent être payés sur une transaction unique.</translation>
+    </message>
+    <message>
+        <source>-paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>-paytxfee est réglée sur un montant très élevé ! Il s'agit des frais de transaction que vous payerez si vous envoyez une transaction.</translation>
+    </message>
+    <message>
+        <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
+        <translation>Un taux de frais (en %s/ko) qui seront utilisés lorsque les estimations de frais sont insuffisantes par manque de données (par défaut : %s)</translation>
+    </message>
+    <message>
+        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
+        <translation>Accepter les transactions retransmises par les pairs en liste blanche, même sans être en train de retransmettre des transactions (par défaut : %d)</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+        <translation>Permettre connections JSON-RPC depuis la source spécifiée. Valide pour &lt;ip&gt; sont: une IP seule (ex. 1.2.3.4), un réseau/masque (ex. 1.2.3.4/255.255.255.0) ou un réseau/CIDR (ex. 1.2.3.4/24). Ce paramétre peut être utilisé plusieurs fois.</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
@@ -3598,56 +4009,24 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Se lier à l'adresse indiquée pour écouter des connections JSON-RPC. Utilisez la notation [hôte]:port pour l'IPv6. Ce paramètre peut être utilisée à plusieurs reprises (par défaut: se lie a toutes les interfaces)</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Change le comportement d'un vote de budget finalisé automatique. mode=auto: Vote uniquement pour le budget finalisé qui correspond a mon budget généré. (string, par défaut : auto)</translation>
-    </message>
-    <message>
-        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
-        <translation>Limiter continuellement les transactions gratuites à &lt;n&gt;*1000 octets par minute (par défaut : %u)</translation>
-    </message>
-    <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Créer les nouveaux fichiers avec les permissions systèmes par défaut, au lieu du umask 077 (utile seulement si le wallet est désactivé)</translation>
+        <translation>Créer les nouveaux fichiers avec les permissions systèmes par défaut, au lieu du umask 077 (utile seulement si le portefeuille est désactivé)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Effacer toutes les transactions du portefeuille et récupère celle qui font partie de la chaine de blocs via -rescan au démarrage</translation>
-    </message>
-    <message>
-        <source>Disable all Folm specific functionality (Masternodes, Obfuscate, quickTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Désactivez toutes les fonctionnalités liées à Folm (Masternode, Obfuscate, quickTX, Budgetisation) (0-1, par défaut: %u)</translation>
+        <translation>Effacer toutes les transactions du portefeuille et récupérer celles qui font partie de la chaîne de blocs par un -rescan au démarrage</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribué sous la licence logicielle MIT, voir le fichier joint COPYING ou &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable quicktx, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Activer quicktx, montrer les confirmations pour les transactions verrouillées (bool, par defaut: %s)</translation>
-    </message>
-    <message>
-        <source>Enable use of automated obfuscate for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Activer l'utilisation automatique de Obfuscate pour les fonds stockés dans ce portefeuille (0-1, défaut: %u)</translation>
-    </message>
-    <message>
-        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Erreur: Paramètre obsolète -socks. Il n'est plus possible d'indiquer la version SOCKS, seul les proxy SOCKS5 sont supportés.</translation>
-    </message>
-    <message>
-        <source>Fees (in DNET/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Les frais (en DNET/ko) inférieurs à ce seuil sont considérés comme nuls pour le relayage (par défaut : %s)</translation>
-    </message>
-    <message>
-        <source>Fees (in DNET/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Les frais (en DNET/ko) inférieurs à ce seuil sont considérés comme nuls pour la création de transactions (par défaut : %s)</translation>
-    </message>
-    <message>
-        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Purger l’activité de la base de données de la zone de mémoire vers le journal sur disque tous les &lt;n&gt; mégaoctets (par défaut : %u)</translation>
+        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
+        <translation>Erreur en chargeant %s : Impossible d'activer HD sur un portefeuille non-HD déjà existant</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Détection de sorties dénominées non confirmées, attente de leur confirmation pour continuer.</translation>
+        <translation>Détection de sorties de coupures non confirmées, attente de leur confirmation pour continuer.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
@@ -3658,24 +4037,24 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Si paytxfee n'est pas indiqué, inclure assez de frais pour que les transactions commencent leur confirmation en moyenne dans les n blocs (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Montant invalide pour -maxtxfee=&lt;montant&gt; : « %s » (doit être au moins du montant de frais minrelay de %s pour éviter des transactions bloquées)</translation>
+        <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
+        <translation>Si ce bloc est dans la chaîne, considérer que lui et ses parents sont valides et omettre éventuellement la vérification de script (0 pour les vérifier tous, par défaut : %s, réseau de test : %s)</translation>
     </message>
     <message>
-        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
-        <translation>Lors du minage, journaliser la priorité des transactions et les frais par ko (par défaut : %u) </translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Montant invalide pour -maxtxfee=&lt;montant&gt; : « %s » (doit être au moins du montant de frais minrelay de %s pour éviter des transactions bloquées)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
         <translation>Maintenir un index complet des transactions, utilisé par l'appel rpc getrawtransaction (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Taille maximale des données dans les transactions support de données que l'on relaye et mine (par défaut : %u)</translation>
+        <source>Make sure to encrypt your wallet and delete all non-encrypted backups after you verified that wallet works!</source>
+        <translation>Assurez-vous de chiffrer votre portefeuille, et effacez toutes vos sauvegardes non chiffrées après avoir vérifié que ce portefeuille marche !</translation>
     </message>
     <message>
-        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>Frais totaux maximum pour une transaction portefeuille unique, si trop bas, risque d'annulation pour transactions trop volumineuses (par défaut : %s)</translation>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Taille maximale des données dans les transactions support de données que l'on relaye et mine (par défaut : %u)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
@@ -3684,18 +4063,6 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
         <translation>Extraire les informations de débogage (par défaut : %u, fournir &lt;category&gt; est optionnel)</translation>
-    </message>
-    <message>
-        <source>Provide liquidity to Obfuscate by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Fournir des liquidités à Obfuscate en mélangeant occasionnellement mais régulièrement des pièces (0-100, par défaut : %u, 1=très fréquent, frais élevés, 100=très rare, frais bas)</translation>
-    </message>
-    <message>
-        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
-        <translation>Priorité haute requise pour relayer les transactions à frais modiques ou nuls (par défaut : %u)</translation>
-    </message>
-    <message>
-        <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
-        <translation>Envoyer les informations de débogage/trace vers la console au lieu du fichier debug.log (par défaut: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
@@ -3710,44 +4077,28 @@ https://www.transifex.com/folm-crypto/folm-wallet-translations/</translation>
         <translation>Ce produit comprend des logiciels développés par le projet OpenSSL afin d'être utilisés dans la boîte à outils OpenSSL &lt;https://www.openssl.org/&gt;, un logiciel de chiffrement écrit par Eric Young et un logiciel UPnP développé par Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use folmd, or the -server option to folm-qt, you must set an rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=folmrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Folm Alert" admin@foo.com
-</source>
-        <translation>Pour utiliser folmd, ou le paramètre -server de folm-qt, vous devez définir un rpc mot de passe dans le fichier de configuration:
-%s
-Il est recommandé que vous utilisiez ce mot de passe aléatoire:
-rpcuser=folmrpc
-rpcpassword=%s
-(Vous ne devez pas vous souvenir de ce mot de passe)
-Le nom d'utilisateur et le mot de passe NE DOIVENT PAS être équivalent.
-Si le fichier n'existe pas, créé le avec les permissions de lecture uniquement pour le propriétaire.
-Il est recommandé de régler alertnotify pour que vous soyez averti des problèmes;
-Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
-</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 25000 FLM.</source>
+        <translation>Impossible de localiser suffisamment de fonds pour cette transaction qui ne sont pas égaux à 25000 FLM.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DNET.</source>
-        <translation>Impossible de localiser suffisamment de fonds pour cette transaction qui ne sont pas égaux à 1000 DNET.</translation>
+        <source>Use hierarchical deterministic key generation (HD) after bip39/bip44. Only has effect during wallet creation/first start</source>
+        <translation>Utiliser la génération de clef déterministe hiérarchique (HD) selon bip39/bip44. N'a d'effet que durant la création ou le premier lancement du portefeuille</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
         <translation>Utiliser un serveur proxy SOCKS5 séparé pour atteindre les pairs par les services cachés de Tor (par défaut : %s)</translation>
     </message>
     <message>
-        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>Attention : -maxtxfee est réglée sur un montant très élevé ! Il s'agit des frais de transaction que vous payerez si vous envoyez une transaction.</translation>
+        <source>User defined mnemonic for HD wallet (bip39). Only has effect during wallet creation/first start (default: randomly generated)</source>
+        <translation>Mnémonique défini par l'utilisateur pour le portefeuille HD (bip39). N'a d'effet que durant la création ou le premier lancement du portefeuille (défaut : généré aléatoirement)</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Folm Core will not work properly.</source>
-        <translation>Attention : Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, Folm Core ne fonctionnera pas correctement.</translation>
+        <source>User defined seed for HD wallet (should be in hex). Only has effect during wallet creation/first start (default: randomly generated)</source>
+        <translation>Graine définie par l'utilisateur pour le portefeuille HD (devrait être en hexadécimal). N'a d'effet que durant la création ou le premier lancement du portefeuille (défaut : générée aléatoirement)</translation>
+    </message>
+    <message>
+        <source>Warning: incorrect parameter -walletbackupsdir, path must exist! Using default path.</source>
+        <translation>Attention : paramètre -walletbackupsdir incorrect, le chemin doit exister ! Utilisation du chemin par défaut.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3758,34 +4109,32 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Pairs en liste blanche ne peuvent être bannis pour DoS et leurs transactions sont toujours relayées, même si elles sont déjà en mémoire, utile par ex. pour une passerelle</translation>
     </message>
     <message>
-        <source>(53656 could be used only on mainnet)</source>
-        <translation>(53656 n'est utilisable que sur mainnet)</translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>Vous devez reconstruire la base de données en utilisant -reindex-chainstate pour modifier -txindex</translation>
     </message>
     <message>
         <source>(default: %s)</source>
         <translation>(par défaut: %s)</translation>
     </message>
     <message>
-        <source>&lt;category&gt; can be:
-</source>
-        <translation>&lt;category&gt; peut être :
-</translation>
-    </message>
-    <message>
         <source>Accept public REST requests (default: %u)</source>
         <translation>Accepter les requetes REST publiques (par défaut: %u)</translation>
-    </message>
-    <message>
-        <source>Acceptable ciphers (default: %s)</source>
-        <translation>Chiffrements acceptables (par défaut: %s)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
         <translation>Toujours requêter via recherche DNS pour des adresses de pairs (par défaut: %u)</translation>
     </message>
     <message>
+        <source>Can't mix: no compatible inputs found!</source>
+        <translation>Impossible de mélanger : pas d'entrées compatibles trouvées !</translation>
+    </message>
+    <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>Impossible de résoudre l'adresse -whitebind : « %s »</translation>
+    </message>
+    <message>
+        <source>Chain selection options:</source>
+        <translation>Options de sélection de chaîne :</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -3804,60 +4153,40 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Copyright (C) 2014-%i The Folm Core Developers</translation>
     </message>
     <message>
-        <source>Could not parse -rpcbind value %s as network address</source>
-        <translation>Impossible d'analyser la valeur -rpcbind %s en tant qu'adresse réseau</translation>
-    </message>
-    <message>
-        <source>Obfuscate is idle.</source>
-        <translation>Obfuscate est inactif.</translation>
-    </message>
-    <message>
-        <source>Obfuscate request complete:</source>
-        <translation>Requête Obfuscate complète :</translation>
-    </message>
-    <message>
-        <source>Obfuscate request incomplete:</source>
-        <translation>Requête Obfuscate incomplète.</translation>
-    </message>
-    <message>
-        <source>Disable safemode, override a real safe mode event (default: %u)</source>
-        <translation>Désactiver le mode sans échec, passer outre un événement sans échec réel (par défaut : %u)</translation>
-    </message>
-    <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
         <translation>Autoriser le client à agir en tant que masternode (0-1, par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Entry exceeds maximum size.</source>
+        <translation>L'entrée dépasse la taille maximale.</translation>
     </message>
     <message>
         <source>Error connecting to Masternode.</source>
         <translation>Erreur de connexion au masternode.</translation>
     </message>
     <message>
+        <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
+        <translation>Erreur au chargement de %s : Impossible de désactiver HD sur un portefeuille HD déjà existant</translation>
+    </message>
+    <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Folm Core</source>
         <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de Folm Core</translation>
     </message>
     <message>
-        <source>Error: A fatal internal error occured, see debug.log for details</source>
-        <translation>Erreur: Une erreur interne fatale est survenue, voir debug.log pour les détails</translation>
+        <source>Failed to load fulfilled requests cache from</source>
+        <translation>Échec du chargement du cache des requêtes exécutées depuis</translation>
     </message>
     <message>
-        <source>Error: Can't select current denominated inputs</source>
-        <translation>Erreur: Impossible de selectionner les entrées denommées</translation>
+        <source>Failed to load governance cache from</source>
+        <translation>Échec du chargement du cache de gouvernance depuis</translation>
     </message>
     <message>
-        <source>Error: Unsupported argument -tor found, use -onion.</source>
-        <translation>Erreur: Paramètre -tor non supporté, utilisez -onion.</translation>
+        <source>Failed to load masternode cache from</source>
+        <translation>Échec du chargement du cache des masternodes depuis</translation>
     </message>
     <message>
-        <source>Fee (in DNET/kB) to add to transactions you send (default: %s)</source>
-        <translation>Frais (en DNET/ko) à ajouter aux transactions que vous envoyez (par défaut: %s)</translation>
-    </message>
-    <message>
-        <source>Finalizing transaction.</source>
-        <translation>Finalisation de la transaction.</translation>
-    </message>
-    <message>
-        <source>Force safe mode (default: %u)</source>
-        <translation>Forcer le mode sans échec (par défaut : %u)</translation>
+        <source>Failed to load masternode payments cache from</source>
+        <translation>Échec du chargement du cache des paiements de masternode depuis</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -3878,10 +4207,6 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
     <message>
         <source>Importing...</source>
         <translation>Importation...</translation>
-    </message>
-    <message>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Importe des blocs depuis un fichier blk000??.dat externe</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
@@ -3910,10 +4235,6 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
     <message>
         <source>Input is not valid.</source>
         <translation>L'entrée est invalide.</translation>
-    </message>
-    <message>
-        <source>quickTX options:</source>
-        <translation>Options quickTX :</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -3948,12 +4269,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Montant invalide pour -paytxfee=&lt;montant&gt; : « %s »</translation>
     </message>
     <message>
-        <source>Last successful Obfuscate action was too recent.</source>
-        <translation>La dernière action Obfuscate réussie est trop récente.</translation>
-    </message>
-    <message>
-        <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
-        <translation>Limiter la taille du cache des signatures à &lt;n&gt; entrées (par défaut : %u)</translation>
+        <source>Keypool ran out, please call keypoolrefill first</source>
+        <translation>La réserve de clefs est épuisée, veuillez d'abord utiliser keypoolrefill</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
@@ -3964,8 +4281,12 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Écouter les connexions sur &lt;port&gt; (par défaut: %u ou testnet: %u)</translation>
     </message>
     <message>
-        <source>Loading budget cache...</source>
-        <translation>Chargement du cache de budget...</translation>
+        <source>Loading banlist...</source>
+        <translation>Chargement de la liste de bannissement...</translation>
+    </message>
+    <message>
+        <source>Loading fulfilled requests cache...</source>
+        <translation>Chargement du cache des requêtes exécutées...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -3984,10 +4305,6 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Vérouiller les masternodes depuis le fichier de configuration masternode (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Garder au plus &lt;n&gt; connexions avec les pairs (par défaut : %u)</translation>
-    </message>
-    <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>Tampon maximal de réception par connexion, &lt;n&gt;*1000 octets (par défaut : %u)</translation>
     </message>
@@ -4000,40 +4317,44 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Mélange en cours...</translation>
     </message>
     <message>
+        <source>Mnemonic passphrase is too long, must be at most 256 characters</source>
+        <translation>La phrase de passe mnémonique est trop longue, elle ne peut dépasser 256 caractères</translation>
+    </message>
+    <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>Un port doit être spécifié avec -whitebind: '%s'</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
-        <translation>Aucun Masternode détecté.</translation>
+        <translation>Aucun masternode détecté.</translation>
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>Aucun Masternode compatible trouvé.</translation>
+        <translation>Aucun masternode compatible trouvé.</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
-        <translation>Absent de la liste des Masternodes.</translation>
-    </message>
-    <message>
-        <source>Number of automatic wallet backups (default: 10)</source>
-        <translation>Nombre de sauvegarde automatique de portefeuille (par défaut : 10)</translation>
-    </message>
-    <message>
-        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
-        <translation>N'accepter qu'une chaîne de blocs correspondant aux points de vérification intégrés (par défaut : %u)</translation>
+        <translation>Absent de la liste des masternodes.</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Se connecter uniquement aux nœuds du réseau &lt;net&gt; (IPv4, IPv6 ou onion)</translation>
     </message>
     <message>
+        <source>Port: %d</source>
+        <translation>Port : %d</translation>
+    </message>
+    <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>Ajouter l'horodatage au début de la sortie de débogage (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Run a thread to flush wallet periodically (default: %u)</source>
-        <translation>Exécuter une tâche pour purger le portefeuille périodiquement (par défaut : %u) </translation>
+        <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
+        <translation>Reconstruire l'état de chaîne et l'index de bloc à partir des fichiers blk*.dat sur le disque</translation>
+    </message>
+    <message>
+        <source>Rebuild chain state from the currently indexed blocks</source>
+        <translation>Reconstruire l'état de chaîne à partir des blocs actuellement indexés</translation>
     </message>
     <message>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
@@ -4042,18 +4363,6 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
         <translation>N'envoyer que des transactions sans frais si possible (par défaut : %u)</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: %s)</source>
-        <translation>Fichier de certification du serveur (par défaut : %s)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: %s)</source>
-        <translation>Clef privée du serveur (par défaut : %s)</translation>
-    </message>
-    <message>
-        <source>Set external address:port to get to this masternode (example: %s)</source>
-        <translation>Définir une adresse:port externe pour accéder à ce masternode (exemple : %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
@@ -4066,14 +4375,6 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Définir le nombre de fils d’exécution pour desservir les appels RPC (par défaut : %d)</translation>
-    </message>
-    <message>
-        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
-        <translation>Définit le drapeau DB_PRIVATE dans l'environnement de la BD du portefeuille (par défaut : %u)</translation>
-    </message>
-    <message>
-        <source>Signing timed out.</source>
-        <translation>Signature expirée.</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
@@ -4096,10 +4397,6 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Dépenser la monnaie non confirmée lors de l'envoi de transactions (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Stop running after importing blocks from disk (default: %u)</source>
-        <translation>Arrêter après l'importation des blocs du disque (par défaut : %u)</translation>
-    </message>
-    <message>
         <source>Submitted following entries to masternode: %u / %d</source>
         <translation>Les entrées suivantes ont été envoyées au masternode: %u / %d</translation>
     </message>
@@ -4112,28 +4409,20 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Soumis au masternode, dans la file d'attente %s</translation>
     </message>
     <message>
+        <source>Synchroning blockchain...</source>
+        <translation>Synchronisation de la chaîne de blocs...</translation>
+    </message>
+    <message>
         <source>Synchronization failed</source>
-        <translation>La synchronisation a échouée</translation>
+        <translation>La synchronisation a échoué</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
         <translation>La synchronisation est terminée</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Synchronisation des budgets...</translation>
-    </message>
-    <message>
-        <source>Synchronizing masternode winners...</source>
-        <translation>Synchronisation des masternodes vainqueurs...</translation>
-    </message>
-    <message>
         <source>Synchronizing masternodes...</source>
         <translation>Synchronisation des masternodes...</translation>
-    </message>
-    <message>
-        <source>Synchronizing sporks...</source>
-        <translation>Synchronisation des sporks...</translation>
     </message>
     <message>
         <source>This is not a Masternode.</source>
@@ -4144,28 +4433,60 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Seuil de déconnexion des pairs présentant un mauvais comportement (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Use KeePass 2 integration using KeePassHttp plugin (default: %u)</source>
-        <translation>Utiliser l'intégration KeePass 2 en utilisant le greffon KeePassHttp (par défaut : %u)</translation>
+        <source>Too many %f denominations, removing.</source>
+        <translation>Trop de coupures %f, suppression en cours.</translation>
     </message>
     <message>
-        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
-        <translation>Utiliser N masternodes différents pour anonymiser les fonds (2-8, par défaut : %u)</translation>
+        <source>Tor control port password (default: empty)</source>
+        <translation>Mot de passe pour le port de contrôle Tor (par défaut : vide)</translation>
+    </message>
+    <message>
+        <source>Tor control port to use if onion listening enabled (default: %s)</source>
+        <translation>Port de contrôle Tor à utiliser si l'écoute sur onion est activée (par défaut : %s)</translation>
+    </message>
+    <message>
+        <source>Unable to start HTTP server. See debug log for details.</source>
+        <translation>Impossible de démarrer le serveur HTTP. Voir le journal de déboguage pour les détails.</translation>
+    </message>
+    <message>
+        <source>Unknown response.</source>
+        <translation>Réponse inconnue.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>Le paramètre non supporté -benchmark a été ignoré, utiliser -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>Le paramètre non supporté -debugnet a été ignoré, utiliser -debug=net.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -tor found, use -onion.</source>
+        <translation>Paramètre non supporté -tor trouvé, utiliser -onion.</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format on startup</source>
+        <translation>Mettre à jour le portefeuille vers le format le plus récent au démarrage</translation>
+    </message>
+    <message>
+        <source>Use KeePass 2 integration using KeePassHttp plugin (default: %u)</source>
+        <translation>Utiliser l'intégration KeePass 2 en utilisant le greffon KeePassHttp (par défaut : %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
         <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : %u)</translation>
     </message>
     <message>
+        <source>Use the test chain</source>
+        <translation>Utiliser la chaîne de test</translation>
+    </message>
+    <message>
+        <source>User Agent comment (%s) contains unsafe characters.</source>
+        <translation>Le commentaire User Agent (%s) contient des caractères dangereux.</translation>
+    </message>
+    <message>
         <source>Wallet needed to be rewritten: restart Folm Core to complete</source>
         <translation>Le portefeuille devait être réécrit : redémarrer Folm Core pour terminer l'opération.</translation>
-    </message>
-    <message>
-        <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Attention : l'argument obsolète -benchmark a été ignoré, utiliser -debug=bench</translation>
-    </message>
-    <message>
-        <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Attention : l'argument obsolète -debugnet a été ignoré, utiliser -debug=net</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4176,16 +4497,12 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>masternodeprivkey invalide. Veuillez vous référer à la documentation.</translation>
     </message>
     <message>
-        <source>(must be53656 for mainnet)</source>
-        <translation>(doit être53656 pour mainnet)</translation>
-    </message>
-    <message>
         <source>Can't find random Masternode.</source>
         <translation>Masternode aléatoire introuvable.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
-        <translation>Ne peux pas mélanger pendant la synchronisation.</translation>
+        <translation>Impossible de mélanger pendant la synchronisation.</translation>
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
@@ -4197,11 +4514,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
-        <translation>Port non valide détecté dans masternode.conf</translation>
-    </message>
-    <message>
-        <source>Invalid private key.</source>
-        <translation>Clé privée invalide.</translation>
+        <translation>Port invalide détecté dans masternode.conf</translation>
     </message>
     <message>
         <source>Invalid script detected.</source>
@@ -4213,23 +4526,327 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
     </message>
     <message>
         <source>KeePassHttp key for AES encrypted communication with KeePass</source>
-        <translation>Clé KeePassHttp pour la communication chiffrée AES avec KeePass</translation>
+        <translation>Clef KeePassHttp pour la communication chiffrée AES avec KeePass</translation>
     </message>
     <message>
-        <source>Keep N DNET anonymized (default: %u)</source>
-        <translation>Maintenir N folm anonymisé en permanence (défaut: %u)</translation>
+        <source>Keep N FLM anonymized (default: %u)</source>
+        <translation>Maintenir N folms anonymisés en permanence (défaut: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Garder au plus &lt;n&gt; transactions sans connexion en mémoire (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Last Obfuscate was too recent.</source>
-        <translation>Le dernier Obfuscate est trop récent.</translation>
+        <source>Disable all Folm specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Désactiver toutes les fonctionnalités liées à Folm (masternodes, PrivateSend, InstantSend, gouvernance) (0-1, par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
+        <translation>Découvrir sa propre adresse IP (par défaut : 1 lors de l'écoute et si aucun -externalip ou -proxy)</translation>
+    </message>
+    <message>
+        <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
+        <translation>Ne pas garder de transactions dans la zone mémoire plus de &lt;n&gt; heures (par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Enable InstantSend, show confirmations for locked transactions (0-1, default: %u)</source>
+        <translation>Activer InstantSend, montrer les confirmations pour les transactions verrouillées (0-1, par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Enable multiple PrivateSend mixing sessions per block, experimental (0-1, default: %u)</source>
+        <translation>Active de multiples sessions de mélange PrivateSend par blocs, expérimental (0-1, par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Enable use of automated PrivateSend for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Activer l'utilisation automatique de PrivateSend pour les fonds stockés dans ce portefeuille (0-1, par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Une erreur est survenue lors de la lecture de wallet.dat ! Toutes les clefs ont été lues correctement mais les données de transaction ou les entrées du carnet d'adresses sont peut-être incorrectes ou manquantes.</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet InstantSend transaction is successfully locked (%s in cmd is replaced by TxID)</source>
+        <translation>Exécuter la commande lorsqu'une transaction InstantSend de portefeuille est bloquée avec succès (%s dans la commande est remplacée par TxID)</translation>
+    </message>
+    <message>
+        <source>Failed to create backup, file already exists! This could happen if you restarted wallet in less than 60 seconds. You can continue if you are ok with this.</source>
+        <translation>La création de la sauvegarde a échoué, le fichier existe déjà ! Cela peut arriver si vous avez redémarré le portefeuille il y a moins de 60 secondes. Vous pouvez continuer si cela ne vous pose pas de problème.</translation>
+    </message>
+    <message>
+        <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
+        <translation>Les frais (en %s/ko) inférieurs à ce seuil sont considérés comme nuls pour la retransmission, le minage et pour la création de transactions (par défaut : %s)</translation>
+    </message>
+    <message>
+        <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Les frais (en %s/ko) inférieurs à ce seuil sont considérés comme nuls pour la création de transactions (par défaut : %s)</translation>
+    </message>
+    <message>
+        <source>Force relay of transactions from whitelisted peers even they violate local relay policy (default: %d)</source>
+        <translation>Forcer la retransmission des transactions de pairs en liste blanche, même s'ils violent nos politiques locales de retransmission (par défaut : %d)</translation>
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
+        <translation>Si &lt;category&gt; n'est pas indiqué ou si &lt;category&gt; = 1, extraire toutes les données de débogage.</translation>
+    </message>
+    <message>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 FLM.</source>
+        <translation>InstantSend ne supporte pas encore des transferts aussi élevés. Les transactions sont pour le moment limitées à %1 FLM.</translation>
+    </message>
+    <message>
+        <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
+        <translation>InstantSend nécessite des entrées avec au moins %d confirmations. Vous devriez attendre quelques minutes avant de réessayer.</translation>
+    </message>
+    <message>
+        <source>Maintain a full address index, used to query for the balance, txids and unspent outputs for addresses (default: %u)</source>
+        <translation>Maintenir un index complet des transactions, utilisé pour requêter le solde, txids et sorties non dépensées par adresses (par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Maintain a full spent index, used to query the spending txid and input index for an outpoint (default: %u)</source>
+        <translation>Maintenir un index complet des dépenses, utilisé pour requêter les transactions de dépenses et l'index d'entrée d'un point de sortie (par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Maintain a timestamp index for block hashes, used to query blocks hashes by a range of timestamps (default: %u)</source>
+        <translation>Maintenir un index d'horodatage des hachages de bloc, utilisé pour requêter les hachages de blocs par une plage de temps (par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (temporary service connections excluded) (default: %u)</source>
+        <translation>Garder au plus &lt;n&gt; connexions avec les pairs (services temporaires de connexions exclus) (par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees (in %s) to use in a single wallet transaction; setting this too low may abort large transactions (default: %s)</source>
+        <translation>Frais totaux maximum (en %s) pour une transaction portefeuille unique; si trop bas, risque d'annulation pour transactions trop volumineuses (par défaut : %s)</translation>
+    </message>
+    <message>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Folm Core will not work properly.</source>
+        <translation>Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, Folm Core ne fonctionnera pas correctement.</translation>
+    </message>
+    <message>
+        <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>PrivateSend utilise des montants libellés exacts pour envoyer des fonds, vous pourriez simplement avoir besoin d'anonymiser plus de fonds.</translation>
+    </message>
+    <message>
+        <source>Provide liquidity to PrivateSend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Fournir des liquidités à PrivateSend en mélangeant occasionnellement mais régulièrement des pièces (0-100, par défaut : %u, 1=très fréquent, frais élevés, 100=très rare, frais bas)</translation>
+    </message>
+    <message>
+        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
+        <translation>Élagage configuré sous le minimum de %d Mio. Veuillez s'il vous plaît utiliser une valeur supérieure.</translation>
+    </message>
+    <message>
+        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
+        <translation>Élagage : la dernière synchronisation de portefeuille va au-delà des données élaguées. Vous devez -reindex er (télécharger la chaîne complète de nouveau dans le cas d'un nœud élagué)</translation>
+    </message>
+    <message>
+        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
+        <translation>Rendre les Identifiant aléatoires pour chaque connection au proxy. Ceci active l'isolation de flux Tor (par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Reduce storage requirements by pruning (deleting) old blocks. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
+        <translation>Réduire le stockage nécessaire en élagant (suppression) des vieux blocs. Ce mode est incompatible avec -txindex et -rescan. Attention : annuler ce paramètre signifie télécharger de nouveau la chaîne de blocs complète. (par défaut : 0 = désactive l'élagage, &gt;%u = taille cible en Mio d'utilisation des fichiers de blocs)</translation>
+    </message>
+    <message>
+        <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
+        <translation>Les re-balayages ne sont pas possibles en mode élagué. Vous devrez utiliser -reindex qui va télécharger la chaîne complète de nouveau.</translation>
+    </message>
+    <message>
+        <source>Specify full path to directory for automatic wallet backups (must exist)</source>
+        <translation>Spécifiez le chemin complet vers le répertoire pour la sauvegarde automatique de portefeuille (doit exister)</translation>
+    </message>
+    <message>
+        <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
+        <translation>Supporte le filtrage des blocs et transactions par filtres bloom (par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <translation>La base de données de blocs semble contenir un bloc du futur. Cela signifie peut-être que la date et l'heure de votre ordinateur sont incorrectes. Ne reconstruisez la base de données des blocs que si vous êtes sûr que la date et l'heure de votre ordinateur sont correctes.</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to send after the fee has been deducted</source>
+        <translation>Le montant de la transaction est trop bas pour qu'elle soit envoyée après déduction des frais</translation>
+    </message>
+    <message>
+        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
+        <translation>La taille totale de la chaîne de version réseau (%i) dépasse la taille maximum (%i). Réduisez le nombre ou la taille des uacomments.</translation>
+    </message>
+    <message>
+        <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
+        <translation>Essaie de limiter le trafic sortant sous la cible indiquée (en Mio par 24h), 0 = sans limite (par défaut : %d)</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough PrivateSend denominated funds for this transaction.</source>
+        <translation>Impossible de trouver suffisamment de fonds PrivateSend pour cette transaction.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 25000 FLM.</source>
+        <translation>Impossible de trouver pour cette transaction suffisamment de fonds non-labellisés PrivateSend  qui ne soient pas égaux à 25000 FLM.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>Paramètre obsolète -socks utilisé. Il n'est plus possible d'indiquer la version SOCKS, seul les proxy SOCKS5 sont supportés.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
+        <translation>Paramètre obsolète -whitelistalwaysrelay ignoré, utilisez -whitelistrelay et/ou -whitelistforcerelay.</translation>
+    </message>
+    <message>
+        <source>Use N separate masternodes for each denominated input to mix funds (2-16, default: %u)</source>
+        <translation>Utiliser N masternodes différents pour chaque entrée de coupure afin de mélanger les fonds (2-16, par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
+        <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : 1 lors de l'écoute et pas de -proxy)</translation>
+    </message>
+    <message>
+        <source>User defined mnemonic passphrase for HD wallet (bip39). Only has effect during wallet creation/first start (default: empty string)</source>
+        <translation>Phrase de passe mnémonique définie par l'utilisateur pour le portefeuille HD (bip39). N'a d'effet que durant la création ou le premier lancement du portefeuille (défaut : chaîne vide)</translation>
+    </message>
+    <message>
+        <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. This option can be specified multiple times</source>
+        <translation>Utilisateur et mot de passe haché pour les connections JSON-RPC. Le champs &lt;userpw&gt; est au format : &lt;UTILISATEUR&gt;:&lt;SEL&gt;$&lt;HACHAGE&gt;. Un script python canonique est inclus dans share/rpcuser. Cette option peut être spécifiée de multiples fois.</translation>
+    </message>
+    <message>
+        <source>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</source>
+        <translation>ATTENTION ! Impossible de réalimenter la série de clefs. Veuillez déverrouiller votre portefeuille pour cela.</translation>
+    </message>
+    <message>
+        <source>Wallet is locked, can't replenish keypool! Automatic backups and mixing are disabled, please unlock your wallet to replenish keypool.</source>
+        <translation>Le portefeuille est verrouillé, impossible de réalimenter la série de clefs ! La sauvegarde automatique et le mélange sont désactivés, veuillez déverrouiller votre portefeuille pour la réalimenter.</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <translation>Attention : un bloc de version inconnue est en train d'être miné ! Il est possible que des règles inconnues soient en vigueur.</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
+        <translation>Vous devez reconstruire la base de données en utilisant -reindex pour retourner en mode non-élagué. Ceci aura pour effet de télécharger à nouveau la chaîne de blocs complète.</translation>
+    </message>
+    <message>
+        <source>masternodeaddr option is deprecated. Please use masternode.conf to manage your remote masternodes.</source>
+        <translation>L'option masternodeaddr est obsolète. Veuillez utiliser masternode.conf pour gérer vos masternodes distants.</translation>
+    </message>
+    <message>
+        <source>%s - %d confirmations</source>
+        <translation>%s - %d confirmations</translation>
+    </message>
+    <message>
+        <source>(%d could be used only on mainnet)</source>
+        <translation>(%d devraît être utilisée que sur mainnet)</translation>
+    </message>
+    <message>
+        <source>(default: %u)</source>
+        <translation>(par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>(must be %d for mainnet)</source>
+        <translation>(doit être %d pour mainnet)</translation>
+    </message>
+    <message>
+        <source>-maxmempool must be at least %d MB</source>
+        <translation>-maxmempool doit être au moins %d Mo</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; peut être :</translation>
+    </message>
+    <message>
+        <source>Append comment to the user agent string</source>
+        <translation>Apposer un commentaire à la chaîne d'agent utilisateur</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat on startup</source>
+        <translation>Tenter de récupérer les clefs privées d'un fichier "wallet.dat" corrompu au démarrage</translation>
+    </message>
+    <message>
+        <source>Automatic backups disabled</source>
+        <translation>Sauvegardes automatiques désactivées</translation>
+    </message>
+    <message>
+        <source>Automatically create Tor hidden service (default: %d)</source>
+        <translation>Créer un service caché Tor automatiquement (par défaut : %d)</translation>
+    </message>
+    <message>
+        <source>ERROR! Failed to create automatic backup</source>
+        <translation>ERREUR ! Impossible de créer la sauvegarde automatique</translation>
+    </message>
+    <message>
+        <source>Enable publish hash block in &lt;address&gt;</source>
+        <translation>Activer la publication du hachage de bloc dans &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish hash transaction (locked via InstantSend) in &lt;address&gt;</source>
+        <translation>Activer la publication du hachage de transaction (verrouillée via InstantSend) dans &lt;address&gt; </translation>
+    </message>
+    <message>
+        <source>Enable publish hash transaction in &lt;address&gt;</source>
+        <translation>Activer la publication du hachage de transaction dans &lt;address&gt; </translation>
+    </message>
+    <message>
+        <source>Enable publish raw block in &lt;address&gt;</source>
+        <translation>Activer la publication du bloc brut dans &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw transaction (locked via InstantSend) in &lt;address&gt;</source>
+        <translation>Activer la publication de la transaction brute (verrouillée via InstantSend) dans &lt;address&gt; </translation>
+    </message>
+    <message>
+        <source>Enable publish raw transaction in &lt;address&gt;</source>
+        <translation>Activer la publication de la transaction brute dans &lt;address&gt; </translation>
+    </message>
+    <message>
+        <source>Enable transaction replacement in the memory pool (default: %u)</source>
+        <translation>Activer le remplacement de transaction dans la zone mémoire (par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>Erreur : Une erreur interne fatale est survenue, voir debug.log pour les détails</translation>
+    </message>
+    <message>
+        <source>Failed to create backup %s!</source>
+        <translation>La création de la sauvegarde %s a échoué !</translation>
+    </message>
+    <message>
+        <source>Failed to create backup, error: %s</source>
+        <translation>La création de la sauvegarde a échoué, erreur : %s !</translation>
+    </message>
+    <message>
+        <source>Failed to delete backup, error: %s</source>
+        <translation>La suppression de la sauvegarde a échoué, erreur : %s !</translation>
+    </message>
+    <message>
+        <source>Failed to parse host:port string</source>
+        <translation>L'analyse de la chaîne hôte:port a échoué</translation>
+    </message>
+    <message>
+        <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
+        <translation>Frais (en %s/ko) à ajouter aux transactions que vous envoyez (par défaut : %s)</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file on startup</source>
+        <translation>Importe des blocs depuis un fichier blk000??.dat externe au démarrage</translation>
+    </message>
+    <message>
+        <source>InstantSend options:</source>
+        <translation>Options InstantSend :</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
+        <translation>Montant invalide pour -fallbackfee=&lt;montant&gt; : « %s »</translation>
+    </message>
+    <message>
+        <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
+        <translation>Garder la zone mémoire de transactions en-dessous de &lt;n&gt; Mo (par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Last PrivateSend was too recent.</source>
+        <translation>Le dernier PrivateSend est trop récent.</translation>
+    </message>
+    <message>
+        <source>Last successful PrivateSend action was too recent.</source>
+        <translation>La dernière action PrivateSend réussie est trop récente.</translation>
     </message>
     <message>
         <source>Line: %d</source>
-        <translation>Ligne: %d</translation>
+        <translation>Ligne : %d</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -4240,6 +4857,10 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Chargement de l’index des blocs...</translation>
     </message>
     <message>
+        <source>Loading governance cache...</source>
+        <translation>Chargement du cache de gouvernance...</translation>
+    </message>
+    <message>
         <source>Loading wallet... (%3.2f %%)</source>
         <translation>Chargement du portefeuille... (%3.2f %%)</translation>
     </message>
@@ -4248,8 +4869,20 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Chargement du portefeuille...</translation>
     </message>
     <message>
+        <source>Location of the auth cookie (default: data dir)</source>
+        <translation>Localisation du cookie d'authentification (par défaut : répertoire des données)</translation>
+    </message>
+    <message>
+        <source>Make the wallet broadcast transactions</source>
+        <translation>Faire transmettre les transactions par le portefeuille</translation>
+    </message>
+    <message>
+        <source>Masternode cache is empty, skipping payments and governance cache...</source>
+        <translation>Le cache de masternode est vide, omission du cache des paiements et de gouvernance...</translation>
+    </message>
+    <message>
         <source>Masternode options:</source>
-        <translation>Options Masternode :</translation>
+        <translation>Options masternode :</translation>
     </message>
     <message>
         <source>Masternode queue is full.</source>
@@ -4260,24 +4893,28 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Masternode :</translation>
     </message>
     <message>
+        <source>Minimum bytes per sigop in transactions we relay and mine (default: %u)</source>
+        <translation>Octets minimums par sigop dans les transactions que nous transmettont et les notres (par défaut : %u)</translation>
+    </message>
+    <message>
         <source>Missing input transaction information.</source>
         <translation>Informations de transaction entrante manquantes.</translation>
     </message>
     <message>
-        <source>No funds detected in need of denominating.</source>
-        <translation>Aucuns fonds détectés nécessitant une dénomination.</translation>
+        <source>No errors detected.</source>
+        <translation>Aucune erreur détectée.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
-        <translation>Pas de dénominations équivalentes trouvées pour le mélange.</translation>
+        <translation>Pas de coupures équivalentes trouvées pour le mélange.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Options de noeud de relais:</translation>
+        <translation>Options de nœud de relais :</translation>
     </message>
     <message>
         <source>Non-standard public key detected.</source>
-        <translation>Clé publique non standard détectée.</translation>
+        <translation>Clef publique non standard détectée.</translation>
     </message>
     <message>
         <source>Not compatible with existing transactions.</source>
@@ -4285,7 +4922,15 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Pas assez de descripteurs de fichiers de disponibles.</translation>
+        <translation>Pas assez de descripteurs de fichiers disponibles.</translation>
+    </message>
+    <message>
+        <source>Not enough funds to anonymize.</source>
+        <translation>Pas assez de fonds pour anonymiser.</translation>
+    </message>
+    <message>
+        <source>Number of automatic wallet backups (default: %u)</source>
+        <translation>Nombre de sauvegardes automatiques de portefeuille (par défaut : %u)</translation>
     </message>
     <message>
         <source>Options:</source>
@@ -4296,32 +4941,76 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Mot de passe pour les connexions JSON-RPC</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Options RPC SSL : (voir le wiki Bitcoin pour les instructions de configuration de SSL)</translation>
+        <source>Print version and exit</source>
+        <translation>Afficher la version et quitter</translation>
+    </message>
+    <message>
+        <source>PrivateSend is idle.</source>
+        <translation>PrivateSend est inactif.</translation>
+    </message>
+    <message>
+        <source>PrivateSend options:</source>
+        <translation>Options PrivateSend :</translation>
+    </message>
+    <message>
+        <source>PrivateSend request complete:</source>
+        <translation>Requête PrivateSend complète :</translation>
+    </message>
+    <message>
+        <source>PrivateSend request incomplete:</source>
+        <translation>Requête PrivateSend incomplète :</translation>
+    </message>
+    <message>
+        <source>Prune cannot be configured with a negative value.</source>
+        <translation>L'élagage ne peut être configuré avec une valeur négative.</translation>
+    </message>
+    <message>
+        <source>Prune mode is incompatible with -txindex.</source>
+        <translation>Le mode Élaguer est incompatible avec -txindex.</translation>
+    </message>
+    <message>
+        <source>Pruning blockstore...</source>
+        <translation>Élagage  du stockage de blocs...</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions on startup</source>
+        <translation>Réanalyser la chaîne de blocs au démarrage pour les transactions de portefeuille manquantes</translation>
+    </message>
+    <message>
+        <source>Warning: unknown new rules activated (versionbit %i)</source>
+        <translation>Attention : nouvelles règles inconnues activées (versionbit %i)</translation>
+    </message>
+    <message>
+        <source>Wasn't able to create wallet backup folder %s!</source>
+        <translation>La création du répertoire de sauvegarde du portefeuille %s a échoué !</translation>
+    </message>
+    <message>
+        <source>Whether to operate in a blocks only mode (default: %u)</source>
+        <translation>Opérer en mode blocs uniquement (par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>ZeroMQ notification options:</source>
+        <translation>Options de notifications ZeroMQ :</translation>
+    </message>
+    <message>
+        <source>no mixing available.</source>
+        <translation>pas de mélangeur disponible.</translation>
+    </message>
+    <message>
+        <source>see debug.log for details.</source>
+        <translation>voir le fichier debug.log pour les détails.</translation>
     </message>
     <message>
         <source>RPC server options:</source>
         <translation>Options du serveur RPC :</translation>
     </message>
     <message>
-        <source>RPC support for HTTP persistent connections (default: %d)</source>
-        <translation>Support RPC pour connections HTTP persistantes  (par défaut : %d)</translation>
-    </message>
-    <message>
-        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
-        <translation>Abandonner aléatoirement 1 message du réseau sur &lt;n&gt;</translation>
-    </message>
-    <message>
-        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
-        <translation>Tester aléatoirement 1 message du réseau sur &lt;n&gt;</translation>
-    </message>
-    <message>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Reconstruire l'index de la chaîne de blocs à partir des fichiers blk000??.dat courants</translation>
-    </message>
-    <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
         <translation>Recevoir et afficher les alertes réseau P2P (par défaut : %u)</translation>
+    </message>
+    <message>
+        <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
+        <translation>Réduction de -maxconnections de %d à %d, en raison de limitations du système.</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
@@ -4332,10 +5021,6 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Relayer les multisig non-P2SH (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Réanalyser la chaîne de blocs pour les transactions de portefeuille manquantes</translation>
-    </message>
-    <message>
         <source>Rescanning...</source>
         <translation>Nouvelle analyse...</translation>
     </message>
@@ -4344,8 +5029,12 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Fonctionner en arrière-plan en tant que démon et accepter les commandes</translation>
     </message>
     <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Envoyer les informations de débogage/trace à la console au lieu du fichier debug.log</translation>
+    </message>
+    <message>
         <source>Session not complete!</source>
-        <translation>Session incomplète!</translation>
+        <translation>Session incomplète !</translation>
     </message>
     <message>
         <source>Session timed out.</source>
@@ -4353,7 +5042,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Définir la taille du cache de la base de données en mégaoctets (%d to %d, default: %d)</translation>
+        <translation>Définir la taille du cache de la base de données en Mo (%d to %d, default: %d)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
@@ -4361,7 +5050,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
     </message>
     <message>
         <source>Set the masternode private key</source>
-        <translation>Définir la clé privée du masternode</translation>
+        <translation>Définir la clef privée du masternode</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -4370,10 +5059,6 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Réduire le fichier debug.log lors du démarrage du client (par défaut : 1 lorsque -debug n'est pas présent)</translation>
-    </message>
-    <message>
-        <source>Signing failed.</source>
-        <translation>La signature a échoué.</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -4396,16 +5081,24 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Synchronisation en suspens...</translation>
     </message>
     <message>
+        <source>Synchronizing governance objects...</source>
+        <translation>Synchronisation des objets de gouvernance...</translation>
+    </message>
+    <message>
+        <source>Synchronizing masternode payments...</source>
+        <translation>Synchronisation du paiement des masternodes...</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to pay the fee</source>
+        <translation>Le montant de la transaction est trop bas pour payer les frais</translation>
+    </message>
+    <message>
         <source>This help message</source>
         <translation>Ce message d'aide</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
         <translation>Ceci est un logiciel expérimental.</translation>
-    </message>
-    <message>
-        <source>This is intended for regression testing tools and app development.</source>
-        <translation>Ceci est à l'intention des outils de test de régression et du développement applicatif.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -4436,16 +5129,12 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Transaction trop volumineuse</translation>
     </message>
     <message>
-        <source>Transmitting final transaction.</source>
-        <translation>Transmission de la transaction finale.</translation>
-    </message>
-    <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Impossible de se lier à %s sur cet ordinateur (erreur bind retournée %s)</translation>
     </message>
     <message>
         <source>Unable to sign spork message, wrong key?</source>
-        <translation>Impossible de signer le message spork, mauvaise clé?</translation>
+        <translation>Impossible de signer le message spork, mauvaise clef ?</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
@@ -4456,28 +5145,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>État inconnu: id = %u</translation>
     </message>
     <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Mettre à niveau le portefeuille vers le format le plus récent</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Utiliser OpenSSL (https) pour les connexions JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : 1 lors de l'écoute)</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Utiliser le réseau de test</translation>
-    </message>
-    <message>
         <source>Username for JSON-RPC connections</source>
         <translation>Nom d'utilisateur pour les connexions JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Value more than Obfuscate pool maximum allows.</source>
-        <translation>Valeur supérieure au maximum autorisé par le pool.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -4488,12 +5157,16 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Vérification du portefeuille en cours...</translation>
     </message>
     <message>
+        <source>Very low number of keys left: %d</source>
+        <translation>Très peu de clefs restantes : %d</translation>
+    </message>
+    <message>
         <source>Wallet %s resides outside data directory %s</source>
         <translation>Le portefeuille %s réside en dehors du répertoire de données %s</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Le Portefeuille est verrouillé.</translation>
+        <translation>Le portefeuille est verrouillé.</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -4508,32 +5181,20 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Folm" admin@foo.com
         <translation>Avertissement</translation>
     </message>
     <message>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Avertissement : cette version est obsolète, une mise à niveau est nécessaire !</translation>
-    </message>
-    <message>
-        <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Vous devez reconstruire la base de données en utilisant -reindex afin de modifier -txindex</translation>
-    </message>
-    <message>
         <source>Your entries added successfully.</source>
         <translation>Vos entrées ajoutées avec succès.</translation>
     </message>
     <message>
         <source>Your transaction was accepted into the pool!</source>
-        <translation>Votre transaction a été acceptée dans la pool!</translation>
+        <translation>Votre transaction a été acceptée dans le registre !</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
         <translation>Supprimer toutes les transactions du portefeuille...</translation>
     </message>
     <message>
-        <source>on startup</source>
-        <translation>au démarrage</translation>
-    </message>
-    <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat corrompu, la récupération a échoué</translation>
+        <translation>fichier "wallet.dat" corrompu, la récupération a échoué</translation>
     </message>
 </context>
 </TS>

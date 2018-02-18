@@ -1,7 +1,7 @@
 # /etc/conf.d/folmd: config file for /etc/init.d/folmd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/folm/folm.conf"
+#BITCOIND_CONFIGFILE="/etc/folmcore/folm.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
 #BITCOIND_PIDDIR="/var/run/folmd"
@@ -13,8 +13,8 @@
 #BITCOIND_DATADIR="/var/lib/folmd"
 
 # User and group to own folmd process
-#BITCOIND_USER="folm"
-#BITCOIND_GROUP="folm"
+#BITCOIND_USER="folmcore"
+#BITCOIND_GROUP="folmcore"
 
 # Path to folmd executable
 #BITCOIND_BIN="/usr/bin/folmd"
@@ -23,4 +23,11 @@
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
-BITCOIND_OPTS=""
+BITCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

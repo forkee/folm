@@ -3,17 +3,13 @@ Description=Folm's distributed currency daemon
 After=network.target
 
 [Service]
-User=folm
-Group=folm
+User=folmcore
+Group=folmcore
 
 Type=forking
 PIDFile=/var/lib/folmd/folmd.pid
-
 ExecStart=/usr/bin/folmd -daemon -pid=/var/lib/folmd/folmd.pid \
-          -conf=/etc/folm/folm.conf -datadir=/var/lib/folmd
-
-ExecStop=-/usr/bin/folm-cli -conf=/etc/folm/folm.conf \
-         -datadir=/var/lib/folmd stop
+-conf=/etc/folmcore/folm.conf -datadir=/var/lib/folmd -disablewallet
 
 Restart=always
 PrivateTmp=true

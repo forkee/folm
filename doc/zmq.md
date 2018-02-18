@@ -45,7 +45,7 @@ operation.
 
 By default, the ZeroMQ feature is automatically compiled in if the
 necessary prerequisites are found.  To disable, use --disable-zmq
-during the *configure* step of building folmd:
+during the *configure* step of building bitcoind:
 
     $ ./configure --disable-zmq (other options)
 
@@ -104,5 +104,5 @@ retrieve the chain from the last known block to the new tip.
 
 There are several possibilities that ZMQ notification can get lost
 during transmission depending on the communication type your are
-using. folmd appends an up-counting sequence number to each
+using. Folmd appends an up-counting sequence number to each
 notification which allows listeners to detect lost notifications.
